@@ -1,0 +1,679 @@
+﻿<local:ThemedWindow
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:local="clr-namespace:Custom_Window_Chrome_Demo"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:ei="http://schemas.microsoft.com/expression/2010/interactions" xmlns:System="clr-namespace:System;assembly=mscorlib" mc:Ignorable="d" x:Class="Custom_Window_Chrome_Demo.MainWindow"
+        Title="TESTY" Height="729" Width="1106"
+         ResizeMode="NoResize" Background="#FFF4F4F4" Icon="img/1456946008_tumblr.ico"  >
+    <local:ThemedWindow.Resources>
+
+
+
+        <Style x:Key="Start" TargetType="{x:Type Button}">
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type Button}">
+                        <Grid x:Name="grid">
+                            <Grid.Background>
+                                <SolidColorBrush Color="White" Opacity="0"/>
+                            </Grid.Background>
+                            <VisualStateManager.VisualStateGroups>
+                                <VisualStateGroup x:Name="CommonStates">
+                                    <VisualState x:Name="Normal">
+                                        <Storyboard>
+                                            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="grid">
+                                                <EasingDoubleKeyFrame KeyTime="0" Value="0.85"/>
+                                            </DoubleAnimationUsingKeyFrames>
+                                        </Storyboard>
+                                    </VisualState>
+                                    <VisualState x:Name="MouseOver"/>
+                                    <VisualState x:Name="Pressed">
+                                        <Storyboard>
+                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(Shape.Fill)" Storyboard.TargetName="rectangle">
+                                                <DiscreteObjectKeyFrame KeyTime="0">
+                                                    <DiscreteObjectKeyFrame.Value>
+                                                        <SolidColorBrush Color="White" Opacity="0.295"/>
+                                                    </DiscreteObjectKeyFrame.Value>
+                                                </DiscreteObjectKeyFrame>
+                                            </ObjectAnimationUsingKeyFrames>
+                                        </Storyboard>
+                                    </VisualState>
+                                    <VisualState x:Name="Disabled">
+                                        <Storyboard>
+                                            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="grid">
+                                                <EasingDoubleKeyFrame KeyTime="0" Value="0.395"/>
+                                            </DoubleAnimationUsingKeyFrames>
+                                        </Storyboard>
+                                    </VisualState>
+                                </VisualStateGroup>
+                            </VisualStateManager.VisualStateGroups>
+                            <Rectangle x:Name="rectangle" Stroke="White" StrokeThickness="3"/>
+                            <TextBlock HorizontalAlignment="Left" Height="30" Margin="49,10,0,0" TextWrapping="Wrap" Text="ROZPOCZNIJ" VerticalAlignment="Top" Width="141" FontFamily="Century Gothic" FontSize="21.333" FontWeight="Bold" Foreground="White" Padding="0,1,0,0"/>
+                            <Image HorizontalAlignment="Left" Height="20.5" Margin="16.5,14,0,0" VerticalAlignment="Top" Width="21.5" Source="img/1456418130_Play.png"/>
+                        </Grid>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsFocused" Value="True"/>
+                            <Trigger Property="IsDefaulted" Value="True"/>
+                            <Trigger Property="IsMouseOver" Value="True"/>
+                            <Trigger Property="IsPressed" Value="True"/>
+                            <Trigger Property="IsEnabled" Value="False"/>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+        <Style x:Key="Previous" TargetType="{x:Type Button}">
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type Button}">
+                        <Grid x:Name="grid">
+                            <Grid.Background>
+                                <SolidColorBrush Color="White" Opacity="0"/>
+                            </Grid.Background>
+                            <VisualStateManager.VisualStateGroups>
+                                <VisualStateGroup x:Name="CommonStates">
+                                    <VisualState x:Name="Normal">
+                                        <Storyboard>
+                                            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="grid">
+                                                <EasingDoubleKeyFrame KeyTime="0" Value="0.85"/>
+                                            </DoubleAnimationUsingKeyFrames>
+                                        </Storyboard>
+                                    </VisualState>
+                                    <VisualState x:Name="MouseOver"/>
+                                    <VisualState x:Name="Pressed">
+                                        <Storyboard>
+                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(Shape.Fill)" Storyboard.TargetName="rectangle">
+                                                <DiscreteObjectKeyFrame KeyTime="0">
+                                                    <DiscreteObjectKeyFrame.Value>
+                                                        <SolidColorBrush Color="White" Opacity="0.295"/>
+                                                    </DiscreteObjectKeyFrame.Value>
+                                                </DiscreteObjectKeyFrame>
+                                            </ObjectAnimationUsingKeyFrames>
+                                        </Storyboard>
+                                    </VisualState>
+                                    <VisualState x:Name="Disabled">
+                                        <Storyboard>
+                                            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="grid">
+                                                <EasingDoubleKeyFrame KeyTime="0" Value="0.395"/>
+                                            </DoubleAnimationUsingKeyFrames>
+                                        </Storyboard>
+                                    </VisualState>
+                                </VisualStateGroup>
+                            </VisualStateManager.VisualStateGroups>
+                            <Rectangle x:Name="rectangle" Stroke="White" StrokeThickness="3"/>
+                            <TextBlock HorizontalAlignment="Left" Height="30" Margin="49,10,0,0" TextWrapping="Wrap" Text="POPRZEDNIE" VerticalAlignment="Top" Width="141" FontFamily="Century Gothic" FontSize="21.333" FontWeight="Bold" Foreground="White" Padding="0,1,0,0"/>
+                            <Image HorizontalAlignment="Left" Height="20.5" Margin="16.5,14,0,0" VerticalAlignment="Top" Width="21.5" Source="img/1456422683_arrow-left-01.png"/>
+                        </Grid>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsFocused" Value="True"/>
+                            <Trigger Property="IsDefaulted" Value="True"/>
+                            <Trigger Property="IsMouseOver" Value="True"/>
+                            <Trigger Property="IsPressed" Value="True"/>
+                            <Trigger Property="IsEnabled" Value="False"/>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+        <Style x:Key="Next" TargetType="{x:Type Button}">
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type Button}">
+                        <Grid x:Name="grid">
+                            <Grid.Background>
+                                <SolidColorBrush Color="White" Opacity="0"/>
+                            </Grid.Background>
+                            <VisualStateManager.VisualStateGroups>
+                                <VisualStateGroup x:Name="CommonStates">
+                                    <VisualState x:Name="Normal">
+                                        <Storyboard>
+                                            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="grid">
+                                                <EasingDoubleKeyFrame KeyTime="0" Value="0.85"/>
+                                            </DoubleAnimationUsingKeyFrames>
+                                        </Storyboard>
+                                    </VisualState>
+                                    <VisualState x:Name="MouseOver"/>
+                                    <VisualState x:Name="Pressed">
+                                        <Storyboard>
+                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(Shape.Fill)" Storyboard.TargetName="rectangle">
+                                                <DiscreteObjectKeyFrame KeyTime="0">
+                                                    <DiscreteObjectKeyFrame.Value>
+                                                        <SolidColorBrush Color="White" Opacity="0.295"/>
+                                                    </DiscreteObjectKeyFrame.Value>
+                                                </DiscreteObjectKeyFrame>
+                                            </ObjectAnimationUsingKeyFrames>
+                                        </Storyboard>
+                                    </VisualState>
+                                    <VisualState x:Name="Disabled">
+                                        <Storyboard>
+                                            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="grid">
+                                                <EasingDoubleKeyFrame KeyTime="0" Value="0.395"/>
+                                            </DoubleAnimationUsingKeyFrames>
+                                        </Storyboard>
+                                    </VisualState>
+                                </VisualStateGroup>
+                            </VisualStateManager.VisualStateGroups>
+                            <Rectangle x:Name="rectangle" Stroke="White" StrokeThickness="3"/>
+                            <TextBlock HorizontalAlignment="Left" Height="30" Margin="49,10,0,0" TextWrapping="Wrap" Text="NASTĘPNE" VerticalAlignment="Top" Width="141" FontFamily="Century Gothic" FontSize="21.333" FontWeight="Bold" Foreground="White" Padding="0,1,0,0"/>
+                            <Image HorizontalAlignment="Left" Height="20.5" Margin="16.5,14,0,0" VerticalAlignment="Top" Width="21.5" Source="img/1456422672_arrow-right-01.png"/>
+                        </Grid>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsFocused" Value="True"/>
+                            <Trigger Property="IsDefaulted" Value="True"/>
+                            <Trigger Property="IsMouseOver" Value="True"/>
+                            <Trigger Property="IsPressed" Value="True"/>
+                            <Trigger Property="IsEnabled" Value="False"/>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+        <Style x:Key="Exit" TargetType="{x:Type Button}">
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type Button}">
+                        <Grid x:Name="grid">
+                            <Grid.Background>
+                                <SolidColorBrush Color="White" Opacity="0"/>
+                            </Grid.Background>
+                            <VisualStateManager.VisualStateGroups>
+                                <VisualStateGroup x:Name="CommonStates">
+                                    <VisualState x:Name="Normal">
+                                        <Storyboard>
+                                            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="grid">
+                                                <EasingDoubleKeyFrame KeyTime="0" Value="0.85"/>
+                                            </DoubleAnimationUsingKeyFrames>
+                                        </Storyboard>
+                                    </VisualState>
+                                    <VisualState x:Name="MouseOver"/>
+                                    <VisualState x:Name="Pressed">
+                                        <Storyboard>
+                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(Shape.Fill)" Storyboard.TargetName="rectangle">
+                                                <DiscreteObjectKeyFrame KeyTime="0">
+                                                    <DiscreteObjectKeyFrame.Value>
+                                                        <SolidColorBrush Color="White" Opacity="0.295"/>
+                                                    </DiscreteObjectKeyFrame.Value>
+                                                </DiscreteObjectKeyFrame>
+                                            </ObjectAnimationUsingKeyFrames>
+                                        </Storyboard>
+                                    </VisualState>
+                                    <VisualState x:Name="Disabled">
+                                        <Storyboard>
+                                            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="grid">
+                                                <EasingDoubleKeyFrame KeyTime="0" Value="0.395"/>
+                                            </DoubleAnimationUsingKeyFrames>
+                                        </Storyboard>
+                                    </VisualState>
+                                </VisualStateGroup>
+                            </VisualStateManager.VisualStateGroups>
+                            <Rectangle x:Name="rectangle" Stroke="White" StrokeThickness="3"/>
+                            <TextBlock HorizontalAlignment="Left" Height="30" Margin="49,10,0,0" TextWrapping="Wrap" Text="ZAKOŃCZ" VerticalAlignment="Top" Width="141" FontFamily="Century Gothic" FontSize="21.333" FontWeight="Bold" Foreground="White" Padding="0,1,0,0"/>
+                            <Image HorizontalAlignment="Left" Height="20.5" Margin="16.5,14,0,0" VerticalAlignment="Top" Width="21.5" Source="img/1456423608_done-01.png"/>
+                        </Grid>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsFocused" Value="True"/>
+                            <Trigger Property="IsDefaulted" Value="True"/>
+                            <Trigger Property="IsMouseOver" Value="True"/>
+                            <Trigger Property="IsPressed" Value="True"/>
+                            <Trigger Property="IsEnabled" Value="False"/>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+        <Style x:Key="CheckBox" TargetType="{x:Type CheckBox}">
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type CheckBox}">
+                        <Grid x:Name="grid" Background="#FFF4F4F4">
+                            <Grid.Effect>
+                                <DropShadowEffect BlurRadius="25" Direction="269" ShadowDepth="1"/>
+                            </Grid.Effect>
+                            <VisualStateManager.VisualStateGroups>
+                                <VisualStateGroup x:Name="CommonStates">
+                                    <VisualState x:Name="Normal"/>
+                                    <VisualState x:Name="MouseOver"/>
+                                    <VisualState x:Name="Pressed"/>
+                                    <VisualState x:Name="Disabled"/>
+                                </VisualStateGroup>
+                                <VisualStateGroup x:Name="CheckStates">
+                                    <VisualState x:Name="Checked">
+                                        <Storyboard>
+                                            <ColorAnimationUsingKeyFrames Storyboard.TargetProperty="(Panel.Background).(SolidColorBrush.Color)" Storyboard.TargetName="grid">
+                                                <EasingColorKeyFrame KeyTime="0" Value="#FF2D3949"/>
+                                            </ColorAnimationUsingKeyFrames>
+                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.OpacityMask)" Storyboard.TargetName="contentPresenter">
+                                                <DiscreteObjectKeyFrame KeyTime="0" Value="{x:Null}"/>
+                                            </ObjectAnimationUsingKeyFrames>
+                                        </Storyboard>
+                                    </VisualState>
+                                    <VisualState x:Name="Unchecked"/>
+                                    <VisualState x:Name="Indeterminate"/>
+                                </VisualStateGroup>
+                            </VisualStateManager.VisualStateGroups>
+                            <ContentPresenter x:Name="contentPresenter" RecognizesAccessKey="True" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}" FlowDirection="LeftToRight" Margin="1,0,0,0" OpacityMask="{x:Null}"/>
+                        </Grid>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+            <Setter Property="FontSize" Value="24"/>
+        </Style>
+        <Style x:Key="ButtonIMG" TargetType="{x:Type Button}">
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type Button}">
+                        <Grid x:Name="imgBox_box">
+                            <Grid.Background>
+                                <SolidColorBrush Color="Black" Opacity="0"/>
+                            </Grid.Background>
+                            <VisualStateManager.VisualStateGroups>
+                                <VisualStateGroup x:Name="CommonStates">
+                                    <VisualState x:Name="Normal"/>
+                                    <VisualState x:Name="MouseOver">
+                                        <Storyboard>
+                                            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="image">
+                                                <EasingDoubleKeyFrame KeyTime="0" Value="0.795"/>
+                                            </DoubleAnimationUsingKeyFrames>
+                                        </Storyboard>
+                                    </VisualState>
+                                </VisualStateGroup>
+                            </VisualStateManager.VisualStateGroups>
+                            <Image x:Name="image" HorizontalAlignment="Center" Height="35" VerticalAlignment="Top" Width="35" Margin="0" Source="img/1456446435_picture-01.png" Opacity="0.495"/>
+                        </Grid>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsFocused" Value="True"/>
+                            <Trigger Property="IsDefaulted" Value="True"/>
+                            <Trigger Property="IsMouseOver" Value="True"/>
+                            <Trigger Property="IsPressed" Value="True"/>
+                            <Trigger Property="IsEnabled" Value="False"/>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+        <Style x:Key="ButtonStyle" TargetType="{x:Type Button}">
+            <Setter Property="Background" Value="#FFF4F4F4"/>
+            <Setter Property="BorderBrush" Value="{x:Null}"/>
+            <Setter Property="Foreground" Value="{DynamicResource {x:Static SystemColors.ControlTextBrushKey}}"/>
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="HorizontalContentAlignment" Value="Center"/>
+            <Setter Property="VerticalContentAlignment" Value="Center"/>
+            <Setter Property="Padding" Value="0"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type Button}">
+                        <Border x:Name="border" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" Background="{TemplateBinding Background}" SnapsToDevicePixels="true">
+                            <ContentPresenter x:Name="contentPresenter" Focusable="False" HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" Margin="{TemplateBinding Padding}" RecognizesAccessKey="True" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}" VerticalAlignment="{TemplateBinding VerticalContentAlignment}"/>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsDefaulted" Value="true">
+                                <Setter Property="BorderBrush" TargetName="border" Value="{DynamicResource {x:Static SystemColors.HighlightBrushKey}}"/>
+                            </Trigger>
+                            <Trigger Property="IsMouseOver" Value="true">
+                            </Trigger>
+                            <Trigger Property="IsPressed" Value="true">
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+        <Style x:Key="LoginStyle" TargetType="{x:Type Button}">
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type Button}">
+                        <Grid x:Name="grid" Opacity="0.795">
+                            <VisualStateManager.VisualStateGroups>
+                                <VisualStateGroup x:Name="CommonStates">
+                                    <VisualState x:Name="Normal"/>
+                                    <VisualState x:Name="MouseOver">
+                                        <Storyboard>
+                                            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="grid">
+                                                <EasingDoubleKeyFrame KeyTime="0" Value="1"/>
+                                            </DoubleAnimationUsingKeyFrames>
+                                        </Storyboard>
+                                    </VisualState>
+                                    <VisualState x:Name="Pressed">
+                                        <Storyboard>
+                                            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="grid">
+                                                <EasingDoubleKeyFrame KeyTime="0" Value="1"/>
+                                            </DoubleAnimationUsingKeyFrames>
+                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(Panel.Background)" Storyboard.TargetName="grid">
+                                                <DiscreteObjectKeyFrame KeyTime="0">
+                                                    <DiscreteObjectKeyFrame.Value>
+                                                        <SolidColorBrush Color="White" Opacity="0.195"/>
+                                                    </DiscreteObjectKeyFrame.Value>
+                                                </DiscreteObjectKeyFrame>
+                                            </ObjectAnimationUsingKeyFrames>
+                                        </Storyboard>
+                                    </VisualState>
+                                    <VisualState x:Name="Disabled"/>
+                                </VisualStateGroup>
+                            </VisualStateManager.VisualStateGroups>
+                            <Border BorderBrush="White" BorderThickness="4" Height="Auto" Width="Auto"/>
+                            <TextBlock HorizontalAlignment="Left" Height="50" TextWrapping="Wrap" VerticalAlignment="Top" Width="200" TextAlignment="Center" Padding="0,8,0,0"><Run Text="ZALOGUJ SIĘ"/></TextBlock>
+                        </Grid>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsFocused" Value="True"/>
+                            <Trigger Property="IsDefaulted" Value="True"/>
+                            <Trigger Property="IsMouseOver" Value="True"/>
+                            <Trigger Property="IsPressed" Value="True"/>
+                            <Trigger Property="IsEnabled" Value="False"/>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+            <Setter Property="FontWeight" Value="Bold"/>
+            <Setter Property="FontSize" Value="22"/>
+            <Setter Property="Foreground" Value="White"/>
+        </Style>
+        <Style x:Key="OKstyle" TargetType="{x:Type Button}">
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type Button}">
+                        <Grid x:Name="grid" Opacity="0.795">
+                            <VisualStateManager.VisualStateGroups>
+                                <VisualStateGroup x:Name="CommonStates">
+                                    <VisualState x:Name="Normal"/>
+                                    <VisualState x:Name="MouseOver">
+                                        <Storyboard>
+                                            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="grid">
+                                                <EasingDoubleKeyFrame KeyTime="0" Value="1"/>
+                                            </DoubleAnimationUsingKeyFrames>
+                                        </Storyboard>
+                                    </VisualState>
+                                    <VisualState x:Name="Pressed">
+                                        <Storyboard>
+                                            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="grid">
+                                                <EasingDoubleKeyFrame KeyTime="0" Value="1"/>
+                                            </DoubleAnimationUsingKeyFrames>
+                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(Panel.Background)" Storyboard.TargetName="grid">
+                                                <DiscreteObjectKeyFrame KeyTime="0">
+                                                    <DiscreteObjectKeyFrame.Value>
+                                                        <SolidColorBrush Color="White" Opacity="0.195"/>
+                                                    </DiscreteObjectKeyFrame.Value>
+                                                </DiscreteObjectKeyFrame>
+                                            </ObjectAnimationUsingKeyFrames>
+                                        </Storyboard>
+                                    </VisualState>
+                                    <VisualState x:Name="Disabled"/>
+                                </VisualStateGroup>
+                            </VisualStateManager.VisualStateGroups>
+                            <Border BorderBrush="White" BorderThickness="4" HorizontalAlignment="Left" Height="50" VerticalAlignment="Top" Width="200"/>
+                            <TextBlock HorizontalAlignment="Left" Height="50" TextWrapping="Wrap" Text="OK" VerticalAlignment="Top" Width="200" TextAlignment="Center" FontSize="22" Foreground="White" FontWeight="Bold" Padding="0,9,0,0"/>
+                        </Grid>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsFocused" Value="True"/>
+                            <Trigger Property="IsDefaulted" Value="True"/>
+                            <Trigger Property="IsMouseOver" Value="True"/>
+                            <Trigger Property="IsPressed" Value="True"/>
+                            <Trigger Property="IsEnabled" Value="False"/>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+        <Style x:Key="CLOSEstyle" TargetType="{x:Type Button}">
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type Button}">
+                        <Grid x:Name="grid" Opacity="0.795">
+                            <VisualStateManager.VisualStateGroups>
+                                <VisualStateGroup x:Name="CommonStates">
+                                    <VisualState x:Name="Normal"/>
+                                    <VisualState x:Name="MouseOver">
+                                        <Storyboard>
+                                            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="grid">
+                                                <EasingDoubleKeyFrame KeyTime="0" Value="1"/>
+                                            </DoubleAnimationUsingKeyFrames>
+                                        </Storyboard>
+                                    </VisualState>
+                                    <VisualState x:Name="Pressed">
+                                        <Storyboard>
+                                            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="grid">
+                                                <EasingDoubleKeyFrame KeyTime="0" Value="1"/>
+                                            </DoubleAnimationUsingKeyFrames>
+                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(Panel.Background)" Storyboard.TargetName="grid">
+                                                <DiscreteObjectKeyFrame KeyTime="0">
+                                                    <DiscreteObjectKeyFrame.Value>
+                                                        <SolidColorBrush Color="White" Opacity="0.195"/>
+                                                    </DiscreteObjectKeyFrame.Value>
+                                                </DiscreteObjectKeyFrame>
+                                            </ObjectAnimationUsingKeyFrames>
+                                        </Storyboard>
+                                    </VisualState>
+                                    <VisualState x:Name="Disabled"/>
+                                </VisualStateGroup>
+                            </VisualStateManager.VisualStateGroups>
+                            <Border BorderBrush="White" BorderThickness="4" HorizontalAlignment="Left" Height="50" VerticalAlignment="Top" Width="200"/>
+                            <TextBlock HorizontalAlignment="Left" Height="50" TextWrapping="Wrap" Text="ANULUJ" VerticalAlignment="Top" Width="200" TextAlignment="Center" FontSize="22" Foreground="White" FontWeight="Bold" Padding="0,9,0,0"/>
+                        </Grid>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsFocused" Value="True"/>
+                            <Trigger Property="IsDefaulted" Value="True"/>
+                            <Trigger Property="IsMouseOver" Value="True"/>
+                            <Trigger Property="IsPressed" Value="True"/>
+                            <Trigger Property="IsEnabled" Value="False"/>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+        <Style x:Key="OKstyle2" TargetType="{x:Type Button}">
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type Button}">
+                        <Grid x:Name="grid" Opacity="0.795">
+                            <VisualStateManager.VisualStateGroups>
+                                <VisualStateGroup x:Name="CommonStates">
+                                    <VisualState x:Name="Normal"/>
+                                    <VisualState x:Name="MouseOver">
+                                        <Storyboard>
+                                            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="grid">
+                                                <EasingDoubleKeyFrame KeyTime="0" Value="1"/>
+                                            </DoubleAnimationUsingKeyFrames>
+                                        </Storyboard>
+                                    </VisualState>
+                                    <VisualState x:Name="Pressed">
+                                        <Storyboard>
+                                            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="grid">
+                                                <EasingDoubleKeyFrame KeyTime="0" Value="1"/>
+                                            </DoubleAnimationUsingKeyFrames>
+                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(Panel.Background)" Storyboard.TargetName="grid">
+                                                <DiscreteObjectKeyFrame KeyTime="0">
+                                                    <DiscreteObjectKeyFrame.Value>
+                                                        <SolidColorBrush Color="White" Opacity="0.195"/>
+                                                    </DiscreteObjectKeyFrame.Value>
+                                                </DiscreteObjectKeyFrame>
+                                            </ObjectAnimationUsingKeyFrames>
+                                        </Storyboard>
+                                    </VisualState>
+                                    <VisualState x:Name="Disabled"/>
+                                </VisualStateGroup>
+                            </VisualStateManager.VisualStateGroups>
+                            <Border BorderBrush="White" BorderThickness="4" HorizontalAlignment="Left" Height="50" VerticalAlignment="Top" Width="200"/>
+                            <TextBlock HorizontalAlignment="Left" Height="50" TextWrapping="Wrap" Text="TAK" VerticalAlignment="Top" Width="200" TextAlignment="Center" FontSize="22" Foreground="White" FontWeight="Bold" Padding="0,9,0,0"/>
+                        </Grid>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsFocused" Value="True"/>
+                            <Trigger Property="IsDefaulted" Value="True"/>
+                            <Trigger Property="IsMouseOver" Value="True"/>
+                            <Trigger Property="IsPressed" Value="True"/>
+                            <Trigger Property="IsEnabled" Value="False"/>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+        <Style x:Key="CLOSEstyle2" TargetType="{x:Type Button}">
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type Button}">
+                        <Grid x:Name="grid" Opacity="0.795">
+                            <VisualStateManager.VisualStateGroups>
+                                <VisualStateGroup x:Name="CommonStates">
+                                    <VisualState x:Name="Normal"/>
+                                    <VisualState x:Name="MouseOver">
+                                        <Storyboard>
+                                            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="grid">
+                                                <EasingDoubleKeyFrame KeyTime="0" Value="1"/>
+                                            </DoubleAnimationUsingKeyFrames>
+                                        </Storyboard>
+                                    </VisualState>
+                                    <VisualState x:Name="Pressed">
+                                        <Storyboard>
+                                            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="grid">
+                                                <EasingDoubleKeyFrame KeyTime="0" Value="1"/>
+                                            </DoubleAnimationUsingKeyFrames>
+                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(Panel.Background)" Storyboard.TargetName="grid">
+                                                <DiscreteObjectKeyFrame KeyTime="0">
+                                                    <DiscreteObjectKeyFrame.Value>
+                                                        <SolidColorBrush Color="White" Opacity="0.195"/>
+                                                    </DiscreteObjectKeyFrame.Value>
+                                                </DiscreteObjectKeyFrame>
+                                            </ObjectAnimationUsingKeyFrames>
+                                        </Storyboard>
+                                    </VisualState>
+                                    <VisualState x:Name="Disabled"/>
+                                </VisualStateGroup>
+                            </VisualStateManager.VisualStateGroups>
+                            <Border BorderBrush="White" BorderThickness="4" HorizontalAlignment="Left" Height="50" VerticalAlignment="Top" Width="200"/>
+                            <TextBlock HorizontalAlignment="Left" Height="50" TextWrapping="Wrap" Text="NIE" VerticalAlignment="Top" Width="200" TextAlignment="Center" FontSize="22" Foreground="White" FontWeight="Bold" Padding="0,9,0,0"/>
+                        </Grid>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsFocused" Value="True"/>
+                            <Trigger Property="IsDefaulted" Value="True"/>
+                            <Trigger Property="IsMouseOver" Value="True"/>
+                            <Trigger Property="IsPressed" Value="True"/>
+                            <Trigger Property="IsEnabled" Value="False"/>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </local:ThemedWindow.Resources>
+    <Grid HorizontalAlignment="Left" Height="700" VerticalAlignment="Top" Width="1100">
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="27*"/>
+            <ColumnDefinition Width="523*"/>
+        </Grid.ColumnDefinitions>
+        <Grid HorizontalAlignment="Left" Height="700" Margin="796,0,0,0" VerticalAlignment="Top" Width="250" Grid.Column="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Grid.Effect>
+                <DropShadowEffect Direction="240" ShadowDepth="4" Opacity="0.1"/>
+            </Grid.Effect>
+            <Grid.Background>
+                <ImageBrush ImageSource="img/tlo.jpg"/>
+            </Grid.Background>
+            <TextBlock HorizontalAlignment="Left" Height="23" Margin="10,10,0,0" TextWrapping="Wrap" Text="UCZEŃ:" VerticalAlignment="Top" Width="111" FontFamily="Century Gothic" FontSize="16" FontWeight="Bold" FontStyle="Italic" Foreground="White" Padding="5,0,0,0"/>
+            <TextBlock x:Name="fl_name" HorizontalAlignment="Left" Height="23" Margin="10,33,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="230" Foreground="White" FontFamily="Century Gothic" FontSize="19" FontWeight="Bold" Padding="5,0,0,0"/>
+            <TextBlock HorizontalAlignment="Left" Height="22" Margin="10,114,0,0" TextWrapping="Wrap" Text="POZOSTAŁO:" VerticalAlignment="Top" Width="230" Foreground="White" FontSize="17" FontFamily="Century Gothic" FontWeight="Bold" TextAlignment="Center"/>
+            <TextBlock x:Name="timer_label" HorizontalAlignment="Left" Height="49" Margin="10,141,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="230" FontFamily="Century Gothic" FontWeight="Bold" FontSize="42" TextAlignment="Center" Foreground="White"/>
+            <TextBlock HorizontalAlignment="Left" Height="22" Margin="10,253,0,0" TextWrapping="Wrap" Text="PYTANIE:" VerticalAlignment="Top" Width="230" Foreground="White" FontSize="17" FontFamily="Century Gothic" FontWeight="Bold" TextAlignment="Center"/>
+            <TextBlock x:Name="nr_question" HorizontalAlignment="Left" Height="49" Margin="10,280,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="230" FontFamily="Century Gothic" FontWeight="Bold" FontSize="42" TextAlignment="Center" Foreground="White"/>
+            <Button x:Name="start" Content="Button" HorizontalAlignment="Left" Height="50" Margin="25,420,0,0" Style="{DynamicResource Start}" VerticalAlignment="Top" Width="200" Click="StartClick"/>
+            <Button x:Name="previous" Content="Button" HorizontalAlignment="Left" Height="50" Margin="25,480,0,0" Style="{DynamicResource Previous}" VerticalAlignment="Top" Width="200" IsEnabled="False" Click="PreviousClick"/>
+            <Button x:Name="next" Content="Button" HorizontalAlignment="Left" Height="50" Margin="25,540,0,0" Style="{DynamicResource Next}" VerticalAlignment="Top" Width="200" IsEnabled="False" Click="NextClick"/>
+            <Button x:Name="exit" Content="Button" HorizontalAlignment="Left" Height="50" Margin="25,600,0,0" Style="{DynamicResource Exit}" VerticalAlignment="Top" Width="200" IsEnabled="False" Click="ExitClick"/>
+        </Grid>
+        <CheckBox x:Name="a"  HorizontalAlignment="Left" Margin="6,350,0,0" Style="{DynamicResource CheckBox}" VerticalAlignment="Top" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="Black" Width="350" Height="100" Visibility="Collapsed" Checked="_Checked" Unchecked="_Unchecked" Grid.Column="1">
+            <Grid x:Name="imgA_grid" Margin="0,0,-1,0">
+                <AccessText x:Name="odpA" TextAlignment="Center" Text="ihdddddddddddddddddddddd" TextWrapping="Wrap" Height="100" VerticalAlignment="Top"/>
+                <Image x:Name="imgA" HorizontalAlignment="Center" VerticalAlignment="Center" Source="img/1456418130_Play.png" Margin="0,35,0,0" MaxWidth="220" Visibility="Collapsed"/>
+            </Grid>
+        </CheckBox>
+        <CheckBox x:Name="b"  HorizontalAlignment="Left" Margin="386,350,0,0" Style="{DynamicResource CheckBox}" VerticalAlignment="Top" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="Black" Width="350" Height="225" Visibility="Hidden" Checked="_Checked" Unchecked="_Unchecked" Grid.Column="1">
+            <Grid x:Name="imgB_grid" Margin="0,0,-1,0">
+                <AccessText x:Name="odpB" TextAlignment="Center" Text="ih" TextWrapping="Wrap" Margin="0" VerticalAlignment="Top"/>
+                <Image x:Name="imgB" HorizontalAlignment="Center" VerticalAlignment="Center" Source="img/1456418130_Play.png" Margin="62,35,62,0" Height="190" MaxWidth="220"/>
+            </Grid>
+        </CheckBox>
+        <CheckBox x:Name="c"  HorizontalAlignment="Left" Margin="6,465,0,0" Style="{DynamicResource CheckBox}" VerticalAlignment="Top" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="Black" Width="350" Height="225" Visibility="Hidden" Checked="_Checked" Unchecked="_Unchecked" Grid.Column="1">
+            <Grid x:Name="imgC_grid" Margin="0,0,-1,0">
+                <AccessText x:Name="odpC" TextAlignment="Center" Text="ig" TextWrapping="Wrap" Margin="0" VerticalAlignment="Top"/>
+                <Image x:Name="imgC" HorizontalAlignment="Center" VerticalAlignment="Center" Source="img/1456418130_Play.png" Height="190" Margin="62,35,62,0" MaxWidth="220"/>
+            </Grid>
+        </CheckBox>
+        <CheckBox x:Name="d"  HorizontalAlignment="Left" Margin="386,465,0,0" Style="{DynamicResource CheckBox}" VerticalAlignment="Top" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="Black" Width="350" Height="225" Checked="_Checked" Unchecked="_Unchecked" Visibility="Hidden" Grid.Column="1">
+            <Grid x:Name="imgD_grid" Margin="0,0,-1,0">
+                <AccessText x:Name="odpD" TextAlignment="Center" Text="ih" TextWrapping="Wrap" Margin="0" VerticalAlignment="Top"/>
+                <Image x:Name="imgD" HorizontalAlignment="Center" VerticalAlignment="Center" Source="img/1456418130_Play.png" Height="190" Margin="62,35,62,0" MaxWidth="220"/>
+            </Grid>
+        </CheckBox>
+        <Grid x:Name="img" HorizontalAlignment="Left" Height="240" Margin="6,210,0,0" VerticalAlignment="Top" Width="730" Visibility="Collapsed" Grid.Column="1">
+            <Image x:Name="img_src" HorizontalAlignment="Center" VerticalAlignment="Center" MaxWidth="730"/>
+        </Grid>
+        <Grid x:Name="question_grid" HorizontalAlignment="Left" Height="200" VerticalAlignment="Top" Width="850" Background="#FFF4F4F4" Grid.ColumnSpan="2">
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Grid.Effect>
+                <DropShadowEffect Direction="260" Opacity="0.44" ShadowDepth="2"/>
+            </Grid.Effect>
+            <Grid HorizontalAlignment="Left" Height="200" VerticalAlignment="Top" Width="137">
+                <Grid.Background>
+                    <ImageBrush ImageSource="img/tlo2.jpg"/>
+                </Grid.Background>
+                <TextBlock HorizontalAlignment="Left" Height="50" TextWrapping="Wrap" Text="TESTY" VerticalAlignment="Top" Width="137" Foreground="White" FontFamily="Century Gothic" FontWeight="Bold" FontSize="27" TextAlignment="Center" Padding="0,8,0,0"/>
+                <TextBlock HorizontalAlignment="Left" Height="50" Margin="0,55,0,0" TextWrapping="Wrap" Text="PYTANIE:" VerticalAlignment="Top" Width="137" FontSize="21" FontFamily="Century Gothic" FontWeight="Bold" Foreground="White" TextAlignment="Center" Padding="0,11,0,0"/>
+            </Grid>
+            <TextBlock x:Name="name_exam" HorizontalAlignment="Left" Height="51" Margin="317,0,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="528" FontFamily="Century Gothic" FontWeight="Bold" FontSize="14" Padding="0,21,0,0"/>
+            <TextBlock x:Name="question" HorizontalAlignment="Left" Height="90" Margin="142,70,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="703" FontFamily="Arial" FontSize="18"/>
+            <Grid x:Name="Img_box" HorizontalAlignment="Left" Height="250" VerticalAlignment="Top" Width="850" Margin="0,200,0,-250" Background="#FFF4F4F4" Visibility="Hidden">
+                <Image x:Name="img_box" HorizontalAlignment="Center" VerticalAlignment="Center" MaxWidth="850" Source="img/1456422683_arrow-left-01.png" MaxHeight="250"/>
+            </Grid>
+        </Grid>
+        <TextBox x:Name="text_box" HorizontalAlignment="Left" Height="238" Margin="10,455,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="830" FontFamily="Arial" FontSize="20" Text="" VerticalScrollBarVisibility="Disabled" HorizontalScrollBarVisibility="Visible" MaxLines="10" MaxLength="430" Visibility="Hidden" Grid.ColumnSpan="2">
+            <TextBox.SelectionBrush>
+                <SolidColorBrush Color="{DynamicResource {x:Static SystemColors.MenuHighlightColorKey}}"/>
+            </TextBox.SelectionBrush>
+        </TextBox>
+        <TextBlock x:Name="start_text" HorizontalAlignment="Center" Height="48" TextWrapping="Wrap" Text="ROZPOCZNIJ TEST..." VerticalAlignment="Center" Width="850" FontSize="36" TextAlignment="Center" FontWeight="Bold" Margin="0,326,250,326" Visibility="Collapsed" Grid.ColumnSpan="2"/>
+        <Grid x:Name="login_grid" HorizontalAlignment="Left" Height="700" VerticalAlignment="Top" Width="1100" Grid.ColumnSpan="2">
+            <Grid.Background>
+                <SolidColorBrush Color="Black" Opacity="0.85"/>
+            </Grid.Background>
+            <Grid x:Name="login_box" HorizontalAlignment="Center" Height="218.5" VerticalAlignment="Center" Width="300" Margin="407.5,197.5,392.5,284">
+                <TextBlock HorizontalAlignment="Left" Height="170" TextWrapping="Wrap" VerticalAlignment="Top" Width="300" Foreground="White" FontSize="22" FontWeight="Bold" FontFamily="Century Gothic" Margin="0,10,0,0"><Run Text="NUMER ALBUMU"/><LineBreak/><Run/></TextBlock>
+                <TextBox x:Name="studentId" HorizontalAlignment="Left" Height="37" Margin="0,37,0,0" VerticalAlignment="Top" Width="300" BorderThickness="0" BorderBrush="{x:Null}" Background="#FFF4F4F4" FontFamily="Century Gothic" FontSize="22" VerticalContentAlignment="Center" Text=""/>
+                <TextBlock HorizontalAlignment="Left" Height="32" TextWrapping="Wrap" Text="HASŁO" VerticalAlignment="Top" Width="300" Foreground="White" FontSize="22" FontWeight="Bold" FontFamily="Century Gothic" Margin="0,79,0,0"/>
+                <PasswordBox x:Name="password_box" HorizontalAlignment="Left" Height="37" Margin="0,105,0,0" VerticalAlignment="Top" Width="300" FontFamily="Century Gothic" VerticalContentAlignment="Center" FontSize="22" Password=""/>
+                <TextBlock HorizontalAlignment="Left" Height="30" TextWrapping="Wrap" VerticalAlignment="Top" Width="300" Foreground="White" FontSize="22" FontWeight="Bold" FontFamily="Century Gothic" Margin="0,145,0,0"><Run Text="IDENTYFIKATOR EGZAMINU"/><LineBreak/><Run/></TextBlock>
+                <TextBox x:Name="examId" HorizontalAlignment="Left" Height="36" Margin="0,172,0,0" VerticalAlignment="Top" Width="300" BorderThickness="0" BorderBrush="{x:Null}" Background="#FFF4F4F4" FontFamily="Century Gothic" FontSize="22" VerticalContentAlignment="Center" Text="" RenderTransformOrigin="0.493,0.833"/>
+                <Button x:Name="login_button" Content="ZALAGUJ SIĘ" HorizontalAlignment="Left" Height="50" Margin="100,213,0,-44.5" Style="{DynamicResource LoginStyle}" VerticalAlignment="Top" Width="200" Click="LoginClick" IsDefault="True"/>
+            </Grid>
+            <Grid x:Name="error_login" HorizontalAlignment="Center" Height="130" VerticalAlignment="Center" Width="400" Margin="350,290,350,280" Visibility="Collapsed">
+                <TextBlock HorizontalAlignment="Left" Height="63" TextWrapping="Wrap" VerticalAlignment="Top" Width="400" FontSize="29.333" Foreground="White" FontWeight="Bold"><Run Text="BŁĄD LOGOWANIA"/><LineBreak/><Run FontSize="16" Text="SPRÓBUJ ZALOGOWAĆ SIĘ PONOWNIE"/></TextBlock>
+                <Button Content="Button" HorizontalAlignment="Left" Height="50" Margin="200,80,0,0" Style="{DynamicResource OKstyle}" VerticalAlignment="Top" Width="200" IsDefault="True" Click="BackLoginClick"/>
+            </Grid>
+            <Grid x:Name="error_exam_id" HorizontalAlignment="Center" Height="130" VerticalAlignment="Center" Width="400" Margin="350,290,350,280" Visibility="Collapsed">
+                <TextBlock HorizontalAlignment="Left" Height="63" TextWrapping="Wrap" VerticalAlignment="Top" Width="400" FontSize="29.333" Foreground="White" FontWeight="Bold"><Run Text="BŁĘDNY IDENTYFIKATOR"/><LineBreak/><Run FontSize="16" Text="SPRÓBUJ WPISAĆ PONOWNIE"/></TextBlock>
+                <Button Content="Button" HorizontalAlignment="Left" Height="50" Margin="200,80,0,0" Style="{DynamicResource OKstyle}" VerticalAlignment="Top" Width="200" IsDefault="True" Click="BackExamClick"/>
+            </Grid>
+            <ProgressBar x:Name="p1" HorizontalAlignment="Center" Height="25" VerticalAlignment="Center" Width="900" BorderBrush="{x:Null}" Visibility="Collapsed"/>
+        </Grid>
+        <Grid x:Name="exit_grid" HorizontalAlignment="Left" Height="700" VerticalAlignment="Top" Width="1100" Visibility="Collapsed" d:IsHidden="True" Grid.ColumnSpan="2">
+            <Grid.Background>
+                <SolidColorBrush Color="Black" Opacity="0.85"/>
+            </Grid.Background>
+            <Grid x:Name="exit_grid2" HorizontalAlignment="Center" Height="157" VerticalAlignment="Center" Width="489" Margin="301,267,310,276" d:IsHidden="True">
+                <Button x:Name="ok_button" Content="Button" HorizontalAlignment="Left" Height="50" Margin="248,99,0,0" Style="{DynamicResource OKstyle2}" VerticalAlignment="Top" Width="200" IsDefault="True" Click="FinishExamClick"/>
+                <Button x:Name="no_button" Content="Button" HorizontalAlignment="Left" Height="50" Margin="43,99,0,0" Style="{DynamicResource CLOSEstyle2}" VerticalAlignment="Top" Width="200" Click="NoFinishExamClick"/>
+                <TextBlock HorizontalAlignment="Left" Height="57" TextWrapping="Wrap" VerticalAlignment="Top" Width="489" Margin="0,10,0,0" FontFamily="Century Gothic" FontSize="22" Foreground="White" FontWeight="Bold" Text="CZY NA PEWNO CHCESZ ZAKOŃCZYĆ TEST?" TextAlignment="Center"/>
+            </Grid>
+            <Label x:Name="resultP" Content="Label" HorizontalAlignment="Center" Height="61" VerticalAlignment="Center" Width="260" FontFamily="Century Gothic" FontSize="36" Foreground="White" HorizontalContentAlignment="Center" Visibility="Collapsed" d:IsHidden="True" FontWeight="Bold"/>
+        </Grid>
+
+    </Grid>
+</local:ThemedWindow>

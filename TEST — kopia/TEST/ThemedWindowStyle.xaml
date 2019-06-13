@@ -1,0 +1,124 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:local="clr-namespace:Custom_Window_Chrome_Demo"
+                    x:Class="Custom_Window_Chrome_Demo.Close" >
+    <Style x:Key="Style" TargetType="{x:Type Button}">
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type Button}">
+                    <Grid x:Name="grid" Background="#FFEA2B4A">
+                        <VisualStateManager.VisualStateGroups>
+                            <VisualStateGroup x:Name="CommonStates">
+                                <VisualState x:Name="Normal">
+                                    <Storyboard>
+                                        <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.OpacityMask)" Storyboard.TargetName="grid">
+                                            <DiscreteObjectKeyFrame KeyTime="0">
+                                                <DiscreteObjectKeyFrame.Value>
+                                                    <SolidColorBrush Color="#D7B08484"/>
+                                                </DiscreteObjectKeyFrame.Value>
+                                            </DiscreteObjectKeyFrame>
+                                        </ObjectAnimationUsingKeyFrames>
+                                    </Storyboard>
+                                </VisualState>
+                                <VisualState x:Name="MouseOver"/>
+                                <VisualState x:Name="Pressed">
+                                    <Storyboard>
+                                        <ColorAnimationUsingKeyFrames Storyboard.TargetProperty="(Panel.Background).(SolidColorBrush.Color)" Storyboard.TargetName="grid">
+                                            <EasingColorKeyFrame KeyTime="0" Value="#FF9E1C31"/>
+                                        </ColorAnimationUsingKeyFrames>
+                                    </Storyboard>
+                                </VisualState>
+                                <VisualState x:Name="Disabled"/>
+                            </VisualStateGroup>
+                        </VisualStateManager.VisualStateGroups>
+                        <ContentPresenter x:Name="contentPresenter" RecognizesAccessKey="True" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}" Content=""/>
+                        <TextBlock HorizontalAlignment="Left" Height="25" TextWrapping="Wrap" VerticalAlignment="Top" Width="50" Margin="0" TextAlignment="Center" FontSize="16" Padding="0,1,0,0" Foreground="White"><Run Text="❌"/></TextBlock>
+                    </Grid>
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsFocused" Value="True"/>
+                        <Trigger Property="IsDefaulted" Value="True"/>
+                        <Trigger Property="IsMouseOver" Value="True"/>
+                        <Trigger Property="IsPressed" Value="True"/>
+                        <Trigger Property="IsEnabled" Value="False"/>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+    <Style TargetType="{x:Type local:ThemedWindow}" x:Key="ThemedWindowStyle">
+        <Style.Resources>
+            <SolidColorBrush x:Key="BorderBrush" Color="#FF1a1a1d"/>
+            <SolidColorBrush x:Key="CaptionBackgroundBrush" Color="#1a1a1d"/>
+            <SolidColorBrush x:Key="CaptionForegroundBrush" Color="White"/>
+            <SolidColorBrush x:Key="button" Color="red"/>
+        </Style.Resources>
+        
+        <Setter Property="Background" Value="White"/>
+        <Setter Property="AllowsTransparency" Value="True"/>
+        <Setter Property="MinWidth" Value="100"/>
+        <Setter Property="MinHeight" Value="100"/>
+        <Setter Property="WindowStyle" Value="None"/>
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type local:ThemedWindow}" x:Name="PART_WindowTemplate">
+                    <Grid x:Name="PART_WindowFrame">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="3"/>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="3"/>
+                        </Grid.ColumnDefinitions>
+                        
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="0"/>
+                            <RowDefinition Height="30"/>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="3"/>
+                        </Grid.RowDefinitions>
+
+                        <Border Background="{DynamicResource BorderBrush}" x:Name="PART_WindowBorderLeft" Grid.Column="0" Grid.Row="1" Grid.RowSpan="2"/>
+                        <Border Background="{DynamicResource BorderBrush}" x:Name="PART_WindowBorderTopLeft" Grid.Column="0" Grid.Row="0"/>
+                        <Border Background="{DynamicResource BorderBrush}" x:Name="PART_WindowBorderTop" Grid.Column="1" Grid.Row="0"/>
+                        <Border Background="{DynamicResource BorderBrush}" x:Name="PART_WindowBorderTopRight" Grid.Column="2" Grid.Row="0"/>
+                        <Border Background="{DynamicResource BorderBrush}" x:Name="PART_WindowBorderRight" Grid.Column="2" Grid.Row="1" Grid.RowSpan="2"/>
+                        <Border Background="{DynamicResource BorderBrush}" x:Name="PART_WindowBorderBottomRight" Grid.Column="2" Grid.Row="3"/>
+                        <Border Background="{DynamicResource BorderBrush}" x:Name="PART_WindowBorderBottom" Grid.Column="1" Grid.Row="3"/>
+                        <Border Background="{DynamicResource BorderBrush}" x:Name="PART_WindowBorderBottomLeft" Grid.Column="0" Grid.Row="3"/>
+                        
+                        <Border x:Name="PART_WindowCaption" Grid.Column="1" Grid.Row="1" Background="{DynamicResource CaptionBackgroundBrush}" >
+                            <DockPanel LastChildFill="True">
+                                <StackPanel DockPanel.Dock="Right" Orientation="Horizontal" VerticalAlignment="Top">
+
+                                    <Button x:Name="PART_WindowCaptionCloseButton" Style="{DynamicResource Style}"  Margin="0,0,4,0" VerticalAlignment="Top" Click="CloseButton"
+                                            />
+                                </StackPanel>
+                                <TextBlock x:Name="PART_WindowCaptionText" DockPanel.Dock="Left" Margin="0,0,0,0" Padding="5">
+                                    <Image x:Name="PART_WindowCaptionIcon" 
+                                           Width="0" 
+                                           Height="30" 
+                                           Margin="0,0,0,0" 
+                                           Source="{x:Null}"
+                                           SnapsToDevicePixels="True"
+                                           RenderOptions.EdgeMode="Aliased" />
+                                    <Run BaselineAlignment="Center" 
+                                         Text="{TemplateBinding Title}" FontSize="16" 
+                                         Foreground="{DynamicResource CaptionForegroundBrush}" FontWeight="SemiBold"/>
+                                </TextBlock>
+                            </DockPanel>
+                        </Border>
+                        
+                        <DockPanel Background="{TemplateBinding Background}" Grid.Row="2" Grid.Column="1">
+                            <ContentPresenter />
+                        </DockPanel>
+                    </Grid>
+                    
+                    <ControlTemplate.Triggers>
+                        <Trigger SourceName="PART_WindowCaptionIcon" Property="Source" Value="{x:Null}">
+                            <Setter TargetName="PART_WindowCaptionText" Property="Margin" Value="0"/>
+                        </Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+    
+</ResourceDictionary>

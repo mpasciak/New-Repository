@@ -1,0 +1,10 @@
+G:\wsiz\Sem IV\Programowanie\Projekt\TEST — kopia\TEST\obj\Release\TEST.csprojAssemblyReference.cache
+G:\wsiz\Sem IV\Programowanie\Projekt\TEST — kopia\TEST\obj\Release\App.baml
+G:\wsiz\Sem IV\Programowanie\Projekt\TEST — kopia\TEST\obj\Release\MainWindow.g.cs
+G:\wsiz\Sem IV\Programowanie\Projekt\TEST — kopia\TEST\obj\Release\ThemedWindowStyle.g.cs
+G:\wsiz\Sem IV\Programowanie\Projekt\TEST — kopia\TEST\obj\Release\App.g.cs
+G:\wsiz\Sem IV\Programowanie\Projekt\TEST — kopia\TEST\obj\Release\GeneratedInternalTypeHelper.g.cs
+G:\wsiz\Sem IV\Programowanie\Projekt\TEST — kopia\TEST\obj\Release\Custom Window Chrome Demo_MarkupCompile.cache
+G:\wsiz\Sem IV\Programowanie\Projekt\TEST — kopia\TEST\obj\Release\Custom Window Chrome Demo_MarkupCompile.lref
+G:\wsiz\Sem IV\Programowanie\Projekt\TEST — kopia\TEST\obj\Release\Custom Window Chrome Demo.exe
+G:\wsiz\Sem IV\Programowanie\Projekt\TEST — kopia\TEST\obj\Release\Custom Window Chrome Demo.pdb

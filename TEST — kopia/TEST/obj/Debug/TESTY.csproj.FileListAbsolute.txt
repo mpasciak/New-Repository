@@ -1,0 +1,195 @@
+E:\SSD\Custom Window Chrome Demo\bin\Debug\Custom Window Chrome Demo.exe.config
+E:\SSD\Custom Window Chrome Demo\bin\Debug\Custom Window Chrome Demo.exe
+E:\SSD\Custom Window Chrome Demo\bin\Debug\Custom Window Chrome Demo.pdb
+E:\SSD\Custom Window Chrome Demo\bin\Debug\Microsoft.Expression.Interactions.dll
+E:\SSD\Custom Window Chrome Demo\bin\Debug\System.Windows.Interactivity.dll
+E:\SSD\Custom Window Chrome Demo\bin\Debug\de\Microsoft.Expression.Interactions.resources.dll
+E:\SSD\Custom Window Chrome Demo\bin\Debug\en\Microsoft.Expression.Interactions.resources.dll
+E:\SSD\Custom Window Chrome Demo\bin\Debug\es\Microsoft.Expression.Interactions.resources.dll
+E:\SSD\Custom Window Chrome Demo\bin\Debug\fr\Microsoft.Expression.Interactions.resources.dll
+E:\SSD\Custom Window Chrome Demo\bin\Debug\it\Microsoft.Expression.Interactions.resources.dll
+E:\SSD\Custom Window Chrome Demo\bin\Debug\ja\Microsoft.Expression.Interactions.resources.dll
+E:\SSD\Custom Window Chrome Demo\bin\Debug\ko\Microsoft.Expression.Interactions.resources.dll
+E:\SSD\Custom Window Chrome Demo\bin\Debug\ru\Microsoft.Expression.Interactions.resources.dll
+E:\SSD\Custom Window Chrome Demo\bin\Debug\zh-Hans\Microsoft.Expression.Interactions.resources.dll
+E:\SSD\Custom Window Chrome Demo\bin\Debug\zh-Hant\Microsoft.Expression.Interactions.resources.dll
+E:\SSD\Custom Window Chrome Demo\bin\Debug\de\System.Windows.Interactivity.resources.dll
+E:\SSD\Custom Window Chrome Demo\bin\Debug\en\System.Windows.Interactivity.resources.dll
+E:\SSD\Custom Window Chrome Demo\bin\Debug\es\System.Windows.Interactivity.resources.dll
+E:\SSD\Custom Window Chrome Demo\bin\Debug\fr\System.Windows.Interactivity.resources.dll
+E:\SSD\Custom Window Chrome Demo\bin\Debug\it\System.Windows.Interactivity.resources.dll
+E:\SSD\Custom Window Chrome Demo\bin\Debug\ja\System.Windows.Interactivity.resources.dll
+E:\SSD\Custom Window Chrome Demo\bin\Debug\ko\System.Windows.Interactivity.resources.dll
+E:\SSD\Custom Window Chrome Demo\bin\Debug\ru\System.Windows.Interactivity.resources.dll
+E:\SSD\Custom Window Chrome Demo\bin\Debug\zh-Hans\System.Windows.Interactivity.resources.dll
+E:\SSD\Custom Window Chrome Demo\bin\Debug\zh-Hant\System.Windows.Interactivity.resources.dll
+E:\SSD\Custom Window Chrome Demo\obj\Debug\App.baml
+E:\SSD\Custom Window Chrome Demo\obj\Debug\MainWindow.g.cs
+E:\SSD\Custom Window Chrome Demo\obj\Debug\App.g.cs
+E:\SSD\Custom Window Chrome Demo\obj\Debug\GeneratedInternalTypeHelper.g.cs
+E:\SSD\Custom Window Chrome Demo\obj\Debug\Custom Window Chrome Demo_MarkupCompile.cache
+E:\SSD\Custom Window Chrome Demo\obj\Debug\Custom Window Chrome Demo_MarkupCompile.lref
+E:\SSD\Custom Window Chrome Demo\obj\Debug\MainWindow.baml
+E:\SSD\Custom Window Chrome Demo\obj\Debug\ThemedWindowStyle.baml
+E:\SSD\Custom Window Chrome Demo\obj\Debug\Custom Window Chrome Demo.g.resources
+E:\SSD\Custom Window Chrome Demo\obj\Debug\Custom_Window_Chrome_Demo.Properties.Resources.resources
+E:\SSD\Custom Window Chrome Demo\obj\Debug\TESTY.csproj.GenerateResource.Cache
+E:\SSD\Custom Window Chrome Demo\obj\Debug\Custom Window Chrome Demo.exe
+E:\SSD\Custom Window Chrome Demo\obj\Debug\Custom Window Chrome Demo.pdb
+C:\Users\Admin\Desktop\Custom Window Chrome Demo\bin\Debug\Custom Window Chrome Demo.exe.config
+C:\Users\Admin\Desktop\Custom Window Chrome Demo\obj\Debug\Custom Window Chrome Demo.exe
+C:\Users\Admin\Desktop\Custom Window Chrome Demo\obj\Debug\Custom Window Chrome Demo.pdb
+C:\Users\Admin\Desktop\Custom Window Chrome Demo\bin\Debug\Custom Window Chrome Demo.exe
+C:\Users\Admin\Desktop\Custom Window Chrome Demo\bin\Debug\Custom Window Chrome Demo.pdb
+C:\Users\Admin\Desktop\Custom Window Chrome Demo\bin\Debug\Microsoft.Expression.Interactions.dll
+C:\Users\Admin\Desktop\Custom Window Chrome Demo\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\Admin\Desktop\Custom Window Chrome Demo\bin\Debug\de\Microsoft.Expression.Interactions.resources.dll
+C:\Users\Admin\Desktop\Custom Window Chrome Demo\bin\Debug\en\Microsoft.Expression.Interactions.resources.dll
+C:\Users\Admin\Desktop\Custom Window Chrome Demo\bin\Debug\es\Microsoft.Expression.Interactions.resources.dll
+C:\Users\Admin\Desktop\Custom Window Chrome Demo\bin\Debug\fr\Microsoft.Expression.Interactions.resources.dll
+C:\Users\Admin\Desktop\Custom Window Chrome Demo\bin\Debug\it\Microsoft.Expression.Interactions.resources.dll
+C:\Users\Admin\Desktop\Custom Window Chrome Demo\bin\Debug\ja\Microsoft.Expression.Interactions.resources.dll
+C:\Users\Admin\Desktop\Custom Window Chrome Demo\bin\Debug\ko\Microsoft.Expression.Interactions.resources.dll
+C:\Users\Admin\Desktop\Custom Window Chrome Demo\bin\Debug\ru\Microsoft.Expression.Interactions.resources.dll
+C:\Users\Admin\Desktop\Custom Window Chrome Demo\bin\Debug\zh-Hans\Microsoft.Expression.Interactions.resources.dll
+C:\Users\Admin\Desktop\Custom Window Chrome Demo\bin\Debug\zh-Hant\Microsoft.Expression.Interactions.resources.dll
+C:\Users\Admin\Desktop\Custom Window Chrome Demo\bin\Debug\de\System.Windows.Interactivity.resources.dll
+C:\Users\Admin\Desktop\Custom Window Chrome Demo\bin\Debug\en\System.Windows.Interactivity.resources.dll
+C:\Users\Admin\Desktop\Custom Window Chrome Demo\bin\Debug\es\System.Windows.Interactivity.resources.dll
+C:\Users\Admin\Desktop\Custom Window Chrome Demo\bin\Debug\fr\System.Windows.Interactivity.resources.dll
+C:\Users\Admin\Desktop\Custom Window Chrome Demo\bin\Debug\it\System.Windows.Interactivity.resources.dll
+C:\Users\Admin\Desktop\Custom Window Chrome Demo\bin\Debug\ja\System.Windows.Interactivity.resources.dll
+C:\Users\Admin\Desktop\Custom Window Chrome Demo\bin\Debug\ko\System.Windows.Interactivity.resources.dll
+C:\Users\Admin\Desktop\Custom Window Chrome Demo\bin\Debug\ru\System.Windows.Interactivity.resources.dll
+C:\Users\Admin\Desktop\Custom Window Chrome Demo\bin\Debug\zh-Hans\System.Windows.Interactivity.resources.dll
+C:\Users\Admin\Desktop\Custom Window Chrome Demo\bin\Debug\zh-Hant\System.Windows.Interactivity.resources.dll
+C:\Users\Admin\Desktop\Custom Window Chrome Demo\obj\Debug\TESTY.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Desktop\Custom Window Chrome Demo\obj\Debug\App.baml
+C:\Users\Admin\Desktop\Custom Window Chrome Demo\obj\Debug\MainWindow.g.cs
+C:\Users\Admin\Desktop\Custom Window Chrome Demo\obj\Debug\App.g.cs
+C:\Users\Admin\Desktop\Custom Window Chrome Demo\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Admin\Desktop\Custom Window Chrome Demo\obj\Debug\Custom Window Chrome Demo_MarkupCompile.cache
+C:\Users\Admin\Desktop\Custom Window Chrome Demo\obj\Debug\Custom Window Chrome Demo_MarkupCompile.lref
+C:\Users\Admin\Desktop\Custom Window Chrome Demo\obj\Debug\MainWindow.baml
+C:\Users\Admin\Desktop\Custom Window Chrome Demo\obj\Debug\ThemedWindowStyle.baml
+C:\Users\Admin\Desktop\Custom Window Chrome Demo\obj\Debug\Custom Window Chrome Demo.g.resources
+C:\Users\Admin\Desktop\Custom Window Chrome Demo\obj\Debug\Custom_Window_Chrome_Demo.Properties.Resources.resources
+C:\Users\Admin\Desktop\Custom Window Chrome Demo\obj\Debug\TESTY.csproj.GenerateResource.Cache
+C:\Users\Admin\Desktop\Custom Window Chrome Demo — kopia\bin\Debug\Custom Window Chrome Demo.exe.config
+C:\Users\Admin\Desktop\Custom Window Chrome Demo — kopia\bin\Debug\Custom Window Chrome Demo.exe
+C:\Users\Admin\Desktop\Custom Window Chrome Demo — kopia\bin\Debug\Custom Window Chrome Demo.pdb
+C:\Users\Admin\Desktop\Custom Window Chrome Demo — kopia\bin\Debug\Microsoft.Expression.Interactions.dll
+C:\Users\Admin\Desktop\Custom Window Chrome Demo — kopia\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\Admin\Desktop\Custom Window Chrome Demo — kopia\bin\Debug\de\Microsoft.Expression.Interactions.resources.dll
+C:\Users\Admin\Desktop\Custom Window Chrome Demo — kopia\bin\Debug\en\Microsoft.Expression.Interactions.resources.dll
+C:\Users\Admin\Desktop\Custom Window Chrome Demo — kopia\bin\Debug\es\Microsoft.Expression.Interactions.resources.dll
+C:\Users\Admin\Desktop\Custom Window Chrome Demo — kopia\bin\Debug\fr\Microsoft.Expression.Interactions.resources.dll
+C:\Users\Admin\Desktop\Custom Window Chrome Demo — kopia\bin\Debug\it\Microsoft.Expression.Interactions.resources.dll
+C:\Users\Admin\Desktop\Custom Window Chrome Demo — kopia\bin\Debug\ja\Microsoft.Expression.Interactions.resources.dll
+C:\Users\Admin\Desktop\Custom Window Chrome Demo — kopia\bin\Debug\ko\Microsoft.Expression.Interactions.resources.dll
+C:\Users\Admin\Desktop\Custom Window Chrome Demo — kopia\bin\Debug\ru\Microsoft.Expression.Interactions.resources.dll
+C:\Users\Admin\Desktop\Custom Window Chrome Demo — kopia\bin\Debug\zh-Hans\Microsoft.Expression.Interactions.resources.dll
+C:\Users\Admin\Desktop\Custom Window Chrome Demo — kopia\bin\Debug\zh-Hant\Microsoft.Expression.Interactions.resources.dll
+C:\Users\Admin\Desktop\Custom Window Chrome Demo — kopia\bin\Debug\de\System.Windows.Interactivity.resources.dll
+C:\Users\Admin\Desktop\Custom Window Chrome Demo — kopia\bin\Debug\en\System.Windows.Interactivity.resources.dll
+C:\Users\Admin\Desktop\Custom Window Chrome Demo — kopia\bin\Debug\es\System.Windows.Interactivity.resources.dll
+C:\Users\Admin\Desktop\Custom Window Chrome Demo — kopia\bin\Debug\fr\System.Windows.Interactivity.resources.dll
+C:\Users\Admin\Desktop\Custom Window Chrome Demo — kopia\bin\Debug\it\System.Windows.Interactivity.resources.dll
+C:\Users\Admin\Desktop\Custom Window Chrome Demo — kopia\bin\Debug\ja\System.Windows.Interactivity.resources.dll
+C:\Users\Admin\Desktop\Custom Window Chrome Demo — kopia\bin\Debug\ko\System.Windows.Interactivity.resources.dll
+C:\Users\Admin\Desktop\Custom Window Chrome Demo — kopia\bin\Debug\ru\System.Windows.Interactivity.resources.dll
+C:\Users\Admin\Desktop\Custom Window Chrome Demo — kopia\bin\Debug\zh-Hans\System.Windows.Interactivity.resources.dll
+C:\Users\Admin\Desktop\Custom Window Chrome Demo — kopia\bin\Debug\zh-Hant\System.Windows.Interactivity.resources.dll
+C:\Users\Admin\Desktop\Custom Window Chrome Demo — kopia\obj\Debug\App.baml
+C:\Users\Admin\Desktop\Custom Window Chrome Demo — kopia\obj\Debug\MainWindow.g.cs
+C:\Users\Admin\Desktop\Custom Window Chrome Demo — kopia\obj\Debug\App.g.cs
+C:\Users\Admin\Desktop\Custom Window Chrome Demo — kopia\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Admin\Desktop\Custom Window Chrome Demo — kopia\obj\Debug\Custom Window Chrome Demo_MarkupCompile.cache
+C:\Users\Admin\Desktop\Custom Window Chrome Demo — kopia\obj\Debug\Custom Window Chrome Demo_MarkupCompile.lref
+C:\Users\Admin\Desktop\Custom Window Chrome Demo — kopia\obj\Debug\MainWindow.baml
+C:\Users\Admin\Desktop\Custom Window Chrome Demo — kopia\obj\Debug\ThemedWindowStyle.baml
+C:\Users\Admin\Desktop\Custom Window Chrome Demo — kopia\obj\Debug\Custom Window Chrome Demo.g.resources
+C:\Users\Admin\Desktop\Custom Window Chrome Demo — kopia\obj\Debug\Custom_Window_Chrome_Demo.Properties.Resources.resources
+C:\Users\Admin\Desktop\Custom Window Chrome Demo — kopia\obj\Debug\TESTY.csproj.GenerateResource.Cache
+C:\Users\Admin\Desktop\Custom Window Chrome Demo — kopia\obj\Debug\Custom Window Chrome Demo.exe
+C:\Users\Admin\Desktop\Custom Window Chrome Demo — kopia\obj\Debug\Custom Window Chrome Demo.pdb
+C:\Users\Admin\Desktop\Custom Window Chrome Demo — kopia\obj\Debug\TESTY.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Desktop\Design app\Custom Window Chrome Demo — kopia\bin\Debug\Custom Window Chrome Demo.exe.config
+C:\Users\Admin\Desktop\Design app\Custom Window Chrome Demo — kopia\obj\Debug\Custom Window Chrome Demo.exe
+C:\Users\Admin\Desktop\Design app\Custom Window Chrome Demo — kopia\obj\Debug\Custom Window Chrome Demo.pdb
+C:\Users\Admin\Desktop\Design app\Custom Window Chrome Demo — kopia\obj\Debug\TESTY.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Desktop\Design app\Custom Window Chrome Demo — kopia\obj\Debug\App.baml
+C:\Users\Admin\Desktop\Design app\Custom Window Chrome Demo — kopia\obj\Debug\MainWindow.g.cs
+C:\Users\Admin\Desktop\Design app\Custom Window Chrome Demo — kopia\obj\Debug\App.g.cs
+C:\Users\Admin\Desktop\Design app\Custom Window Chrome Demo — kopia\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Admin\Desktop\Design app\Custom Window Chrome Demo — kopia\obj\Debug\Custom Window Chrome Demo_MarkupCompile.cache
+C:\Users\Admin\Desktop\Design app\Custom Window Chrome Demo — kopia\obj\Debug\Custom Window Chrome Demo_MarkupCompile.lref
+C:\Users\Admin\Desktop\Design app\Custom Window Chrome Demo — kopia\bin\Debug\Custom Window Chrome Demo.exe
+C:\Users\Admin\Desktop\Design app\Custom Window Chrome Demo — kopia\bin\Debug\Custom Window Chrome Demo.pdb
+C:\Users\Admin\Desktop\Design app\Custom Window Chrome Demo — kopia\bin\Debug\Microsoft.Expression.Interactions.dll
+C:\Users\Admin\Desktop\Design app\Custom Window Chrome Demo — kopia\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\Admin\Desktop\Design app\Custom Window Chrome Demo — kopia\bin\Debug\de\Microsoft.Expression.Interactions.resources.dll
+C:\Users\Admin\Desktop\Design app\Custom Window Chrome Demo — kopia\bin\Debug\en\Microsoft.Expression.Interactions.resources.dll
+C:\Users\Admin\Desktop\Design app\Custom Window Chrome Demo — kopia\bin\Debug\es\Microsoft.Expression.Interactions.resources.dll
+C:\Users\Admin\Desktop\Design app\Custom Window Chrome Demo — kopia\bin\Debug\fr\Microsoft.Expression.Interactions.resources.dll
+C:\Users\Admin\Desktop\Design app\Custom Window Chrome Demo — kopia\bin\Debug\it\Microsoft.Expression.Interactions.resources.dll
+C:\Users\Admin\Desktop\Design app\Custom Window Chrome Demo — kopia\bin\Debug\ja\Microsoft.Expression.Interactions.resources.dll
+C:\Users\Admin\Desktop\Design app\Custom Window Chrome Demo — kopia\bin\Debug\ko\Microsoft.Expression.Interactions.resources.dll
+C:\Users\Admin\Desktop\Design app\Custom Window Chrome Demo — kopia\bin\Debug\ru\Microsoft.Expression.Interactions.resources.dll
+C:\Users\Admin\Desktop\Design app\Custom Window Chrome Demo — kopia\bin\Debug\zh-Hans\Microsoft.Expression.Interactions.resources.dll
+C:\Users\Admin\Desktop\Design app\Custom Window Chrome Demo — kopia\bin\Debug\zh-Hant\Microsoft.Expression.Interactions.resources.dll
+C:\Users\Admin\Desktop\Design app\Custom Window Chrome Demo — kopia\bin\Debug\de\System.Windows.Interactivity.resources.dll
+C:\Users\Admin\Desktop\Design app\Custom Window Chrome Demo — kopia\bin\Debug\en\System.Windows.Interactivity.resources.dll
+C:\Users\Admin\Desktop\Design app\Custom Window Chrome Demo — kopia\bin\Debug\es\System.Windows.Interactivity.resources.dll
+C:\Users\Admin\Desktop\Design app\Custom Window Chrome Demo — kopia\bin\Debug\fr\System.Windows.Interactivity.resources.dll
+C:\Users\Admin\Desktop\Design app\Custom Window Chrome Demo — kopia\bin\Debug\it\System.Windows.Interactivity.resources.dll
+C:\Users\Admin\Desktop\Design app\Custom Window Chrome Demo — kopia\bin\Debug\ja\System.Windows.Interactivity.resources.dll
+C:\Users\Admin\Desktop\Design app\Custom Window Chrome Demo — kopia\bin\Debug\ko\System.Windows.Interactivity.resources.dll
+C:\Users\Admin\Desktop\Design app\Custom Window Chrome Demo — kopia\bin\Debug\ru\System.Windows.Interactivity.resources.dll
+C:\Users\Admin\Desktop\Design app\Custom Window Chrome Demo — kopia\bin\Debug\zh-Hans\System.Windows.Interactivity.resources.dll
+C:\Users\Admin\Desktop\Design app\Custom Window Chrome Demo — kopia\bin\Debug\zh-Hant\System.Windows.Interactivity.resources.dll
+C:\Users\Admin\Desktop\Design app\Custom Window Chrome Demo — kopia\obj\Debug\MainWindow.baml
+C:\Users\Admin\Desktop\Design app\Custom Window Chrome Demo — kopia\obj\Debug\ThemedWindowStyle.baml
+C:\Users\Admin\Desktop\Design app\Custom Window Chrome Demo — kopia\obj\Debug\Custom Window Chrome Demo.g.resources
+C:\Users\Admin\Desktop\Design app\Custom Window Chrome Demo — kopia\obj\Debug\Custom_Window_Chrome_Demo.Properties.Resources.resources
+C:\Users\Admin\Desktop\Design app\Custom Window Chrome Demo — kopia\obj\Debug\TESTY.csproj.GenerateResource.Cache
+C:\Users\Admin\Desktop\Design app\Custom Window Chrome Demo — kopia\bin\Debug\MySql.Data.dll
+C:\Users\Admin\Desktop\Programowanie\Custom Window Chrome Demo — kopia\bin\Debug\Custom Window Chrome Demo.exe.config
+C:\Users\Admin\Desktop\Programowanie\Custom Window Chrome Demo — kopia\obj\Debug\Custom Window Chrome Demo.exe
+C:\Users\Admin\Desktop\Programowanie\Custom Window Chrome Demo — kopia\obj\Debug\Custom Window Chrome Demo.pdb
+C:\Users\Admin\Desktop\Programowanie\Custom Window Chrome Demo — kopia\bin\Debug\Custom Window Chrome Demo.exe
+C:\Users\Admin\Desktop\Programowanie\Custom Window Chrome Demo — kopia\bin\Debug\Custom Window Chrome Demo.pdb
+C:\Users\Admin\Desktop\Programowanie\Custom Window Chrome Demo — kopia\bin\Debug\Microsoft.Expression.Interactions.dll
+C:\Users\Admin\Desktop\Programowanie\Custom Window Chrome Demo — kopia\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\Admin\Desktop\Programowanie\Custom Window Chrome Demo — kopia\bin\Debug\de\Microsoft.Expression.Interactions.resources.dll
+C:\Users\Admin\Desktop\Programowanie\Custom Window Chrome Demo — kopia\bin\Debug\en\Microsoft.Expression.Interactions.resources.dll
+C:\Users\Admin\Desktop\Programowanie\Custom Window Chrome Demo — kopia\bin\Debug\es\Microsoft.Expression.Interactions.resources.dll
+C:\Users\Admin\Desktop\Programowanie\Custom Window Chrome Demo — kopia\bin\Debug\fr\Microsoft.Expression.Interactions.resources.dll
+C:\Users\Admin\Desktop\Programowanie\Custom Window Chrome Demo — kopia\bin\Debug\it\Microsoft.Expression.Interactions.resources.dll
+C:\Users\Admin\Desktop\Programowanie\Custom Window Chrome Demo — kopia\bin\Debug\ja\Microsoft.Expression.Interactions.resources.dll
+C:\Users\Admin\Desktop\Programowanie\Custom Window Chrome Demo — kopia\bin\Debug\ko\Microsoft.Expression.Interactions.resources.dll
+C:\Users\Admin\Desktop\Programowanie\Custom Window Chrome Demo — kopia\bin\Debug\ru\Microsoft.Expression.Interactions.resources.dll
+C:\Users\Admin\Desktop\Programowanie\Custom Window Chrome Demo — kopia\bin\Debug\zh-Hans\Microsoft.Expression.Interactions.resources.dll
+C:\Users\Admin\Desktop\Programowanie\Custom Window Chrome Demo — kopia\bin\Debug\zh-Hant\Microsoft.Expression.Interactions.resources.dll
+C:\Users\Admin\Desktop\Programowanie\Custom Window Chrome Demo — kopia\bin\Debug\de\System.Windows.Interactivity.resources.dll
+C:\Users\Admin\Desktop\Programowanie\Custom Window Chrome Demo — kopia\bin\Debug\en\System.Windows.Interactivity.resources.dll
+C:\Users\Admin\Desktop\Programowanie\Custom Window Chrome Demo — kopia\bin\Debug\es\System.Windows.Interactivity.resources.dll
+C:\Users\Admin\Desktop\Programowanie\Custom Window Chrome Demo — kopia\bin\Debug\fr\System.Windows.Interactivity.resources.dll
+C:\Users\Admin\Desktop\Programowanie\Custom Window Chrome Demo — kopia\bin\Debug\it\System.Windows.Interactivity.resources.dll
+C:\Users\Admin\Desktop\Programowanie\Custom Window Chrome Demo — kopia\bin\Debug\ja\System.Windows.Interactivity.resources.dll
+C:\Users\Admin\Desktop\Programowanie\Custom Window Chrome Demo — kopia\bin\Debug\ko\System.Windows.Interactivity.resources.dll
+C:\Users\Admin\Desktop\Programowanie\Custom Window Chrome Demo — kopia\bin\Debug\ru\System.Windows.Interactivity.resources.dll
+C:\Users\Admin\Desktop\Programowanie\Custom Window Chrome Demo — kopia\bin\Debug\zh-Hans\System.Windows.Interactivity.resources.dll
+C:\Users\Admin\Desktop\Programowanie\Custom Window Chrome Demo — kopia\bin\Debug\zh-Hant\System.Windows.Interactivity.resources.dll
+C:\Users\Admin\Desktop\Programowanie\Custom Window Chrome Demo — kopia\obj\Debug\TESTY.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Desktop\Programowanie\Custom Window Chrome Demo — kopia\obj\Debug\App.baml
+C:\Users\Admin\Desktop\Programowanie\Custom Window Chrome Demo — kopia\obj\Debug\MainWindow.g.cs
+C:\Users\Admin\Desktop\Programowanie\Custom Window Chrome Demo — kopia\obj\Debug\App.g.cs
+C:\Users\Admin\Desktop\Programowanie\Custom Window Chrome Demo — kopia\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Admin\Desktop\Programowanie\Custom Window Chrome Demo — kopia\obj\Debug\Custom Window Chrome Demo_MarkupCompile.cache
+C:\Users\Admin\Desktop\Programowanie\Custom Window Chrome Demo — kopia\obj\Debug\Custom Window Chrome Demo_MarkupCompile.lref
+C:\Users\Admin\Desktop\Programowanie\Custom Window Chrome Demo — kopia\obj\Debug\MainWindow.baml
+C:\Users\Admin\Desktop\Programowanie\Custom Window Chrome Demo — kopia\obj\Debug\ThemedWindowStyle.baml
+C:\Users\Admin\Desktop\Programowanie\Custom Window Chrome Demo — kopia\obj\Debug\Custom Window Chrome Demo.g.resources
+C:\Users\Admin\Desktop\Programowanie\Custom Window Chrome Demo — kopia\obj\Debug\Custom_Window_Chrome_Demo.Properties.Resources.resources
+C:\Users\Admin\Desktop\Programowanie\Custom Window Chrome Demo — kopia\obj\Debug\TESTY.csproj.GenerateResource.Cache
