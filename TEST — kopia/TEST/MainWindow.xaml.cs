@@ -257,7 +257,7 @@ namespace Custom_Window_Chrome_Demo
 
         private void FinishExam()
         {
-            InternetConnection.Connect();
+        //    InternetConnection.Connect();
             timer.Stop();
             timer_label.Text = "KONIEC";
             exit_grid.Visibility = System.Windows.Visibility.Visible;

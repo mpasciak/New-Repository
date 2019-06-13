@@ -180,9 +180,6 @@
   <ItemGroup>
     <Resource Include="img\tlo2.jpg" />
   </ItemGroup>
-  <ItemGroup>
-    <Resource Include="img\1456946008_tumblr.ico" />
-  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

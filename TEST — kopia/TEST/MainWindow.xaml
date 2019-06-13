@@ -3,10 +3,8 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:local="clr-namespace:Custom_Window_Chrome_Demo"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:ei="http://schemas.microsoft.com/expression/2010/interactions" xmlns:System="clr-namespace:System;assembly=mscorlib" mc:Ignorable="d" x:Class="Custom_Window_Chrome_Demo.MainWindow"
-        Title="TESTY" Height="729" Width="1106"
-         ResizeMode="NoResize" Background="#FFF4F4F4" Icon="img/1456946008_tumblr.ico"  >
+        Title="TESTY" Height="729" Width="1106" >
     <local:ThemedWindow.Resources>
-
 
 
         <Style x:Key="Start" TargetType="{x:Type Button}">
@@ -576,7 +574,7 @@
             <Grid.Background>
                 <ImageBrush ImageSource="img/tlo.jpg"/>
             </Grid.Background>
-            <TextBlock HorizontalAlignment="Left" Height="23" Margin="10,10,0,0" TextWrapping="Wrap" Text="UCZEŃ:" VerticalAlignment="Top" Width="111" FontFamily="Century Gothic" FontSize="16" FontWeight="Bold" FontStyle="Italic" Foreground="White" Padding="5,0,0,0"/>
+            <TextBlock HorizontalAlignment="Left" Height="23" Margin="10,10,0,0" TextWrapping="Wrap" Text="Użytkownik:" VerticalAlignment="Top" Width="111" FontFamily="Century Gothic" FontSize="16" FontWeight="Bold" FontStyle="Italic" Foreground="White" Padding="5,0,0,0"/>
             <TextBlock x:Name="fl_name" HorizontalAlignment="Left" Height="23" Margin="10,33,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="230" Foreground="White" FontFamily="Century Gothic" FontSize="19" FontWeight="Bold" Padding="5,0,0,0"/>
             <TextBlock HorizontalAlignment="Left" Height="22" Margin="10,114,0,0" TextWrapping="Wrap" Text="POZOSTAŁO:" VerticalAlignment="Top" Width="230" Foreground="White" FontSize="17" FontFamily="Century Gothic" FontWeight="Bold" TextAlignment="Center"/>
             <TextBlock x:Name="timer_label" HorizontalAlignment="Left" Height="49" Margin="10,141,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="230" FontFamily="Century Gothic" FontWeight="Bold" FontSize="42" TextAlignment="Center" Foreground="White"/>

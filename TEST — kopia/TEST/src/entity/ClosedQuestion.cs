@@ -4,6 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+
+/// <summary>
+/// Klasa dotycząca pytań zamkniętych. Odpowiadająca tabeli w bazie która zawiera owe pytania. Podobnie w kodzie jak i w bazie składowe to id, tresc pytania, oraz z ilosci punktów do uzyskania za dane pytanie. 
+/// Niezbędnym składnikiem jest również lista z odpowiedzmai do zadanych pytan
+/// </summary>
 namespace Custom_Window_Chrome_Demo.src
 {
     class ClosedQuestion
