@@ -5,15 +5,28 @@ using System.Data;
 
 namespace Custom_Window_Chrome_Demo.src
 {
+    /// <summary>
+    /// klasa repository - odpowiada za wszelaki kontakt z baza danych i wymiane danych
+    /// </summary>
     class Repository
     {
+        /// <summary>
+        /// Ponizsze skladniki klasy sa odpowiedzialne za polaczenie do bazy danych.
+        /// Nalezy podac adres naszej bazy, jej nazwe, uzytkownika oraz haslo.
+        /// !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+        /// Configuration manager - funkcja pobierajaca dane z appconfiga
+        /// "polaczenie" - zmienna podtrzymujaca polaczenie z baza
+        /// </summary>
         private static string server = ConfigurationManager.AppSettings["Server"];
         private static string database = ConfigurationManager.AppSettings["Database"];
         private static string uid = ConfigurationManager.AppSettings["User"];
         private static string pwd = ConfigurationManager.AppSettings["Password"];
-
+   
         private static MySqlConnection polaczenie;
 
+        /// <summary>
+        /// otwarcie polaczenia z baza danych, za pomoca wartosci zdefiniowanych w appconfigu
+        /// </summary>
         private static void Open()
         {
             polaczenie = new MySqlConnection("SERVER=" + server + ";" + "DATABASE=" + database + ";" + "UID=" + uid + ";" + "PASSWORD=" + pwd + ";");
@@ -22,15 +35,28 @@ namespace Custom_Window_Chrome_Demo.src
             if (polaczenie.State == ConnectionState.Closed) polaczenie.Open();
         }
 
-
+        /// <summary>
+        /// metoda findloginbystudentidandpassword - metoda, ktora znajduje login po hasle i id studenta w bazie
+        /// niezbedna do zalogowania sie w aplikacji
+        /// sqlQury - tresc zapytania
+        /// open(); - otwarcie polaczenia z baza
+        /// DataTable dataTable = new DataTable();  (tworzymy nowy obiekt typu dataTAble, do ktorego trafia dane z zapytania)
+        /// using (MySqlCommand cmd = new MySqlCommand(sqlQuery, polaczenie)) - laczy sie z baza i wyciaga dane o id studenta i jego hasle
+        /// a nastepnie podmieniamy parametry przekazane do funkcji z ich odpowiednikami w zapytaniu.
+        /// cmd (shell do SQL'a)
+        /// wywolanie funkcji fetchObject
+        /// </summary>
+        /// <param name="studentId"></param>
+        /// <param name="password"></param>
+        /// <returns></returns>
         public static DataRow findLoginByStudentIdAndPassword(String studentId, String password)
         {
             String sqlQuery = "SELECT id, first_name, last_name, student_id FROM login WHERE student_id = @studentId and password = @password;";
 
             Open();
 
-            DataTable dataTable = new DataTable();
-            
+            DataTable dataTable = new DataTable(); 
+
             using (MySqlCommand cmd = new MySqlCommand(sqlQuery, polaczenie))
             {
                 cmd.Parameters.AddWithValue("studentId", studentId);
