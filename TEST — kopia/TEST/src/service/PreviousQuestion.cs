@@ -8,7 +8,16 @@ namespace Custom_Window_Chrome_Demo.src.service
 {
     class PreviousQuestion
     {
-
+        /// <summary>
+        /// /// Metoda sluzaca do obslugi przycisku poprzedni
+        /// Na poczatku jest sprawdzane czy w egzaminie jest jakas pula pytan jesli niema to nastapi blad
+        /// nastepnie sprawdzamy czy mamy wybrane jakiekolwiek pytanie jesli niema to wybieramy pierwszy element z listy pytan oraz sprawdzane jest
+        /// czy indeks poprzedniego pytania jest wiekszy niz 0 
+        /// jesli jakies pytanie jest wybrane to sprawdzamy miejsce w tablicy danego pytania i wybieramy poprzednie
+        /// </summary>
+        /// <param name="closedQuestionList"></param>
+        /// <param name="currentClosedQuestion"></param>
+        /// <returns></returns>
         public static ClosedQuestion PreviousClosedQuestion(List<ClosedQuestion> closedQuestionList, ClosedQuestion currentClosedQuestion)
         {
             if(closedQuestionList.Count == 0) throw new Exception();

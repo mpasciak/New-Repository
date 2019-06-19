@@ -45,6 +45,7 @@ namespace Custom_Window_Chrome_Demo.src
         /// a nastepnie podmieniamy parametry przekazane do funkcji z ich odpowiednikami w zapytaniu.
         /// cmd (shell do SQL'a)
         /// wywolanie funkcji fetchObject
+        /// fetch - Retrieves an object of the requested type, given a class identifier and an object ID.
         /// </summary>
         /// <param name="studentId"></param>
         /// <param name="password"></param>
@@ -66,7 +67,12 @@ namespace Custom_Window_Chrome_Demo.src
 
             return fetchObject(dataTable);
         }
-
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="examId"></param>
+        /// <param name="limit"></param>
+        /// <returns></returns>
         public static DataRowCollection findQuestionByExamId(int examId, int limit)
         {
             String sqlQuery = String.Format("SELECT id, question, points FROM closedquestion WHERE exam_id = @examId order by rand() LIMIT {0};", limit);
@@ -84,6 +90,11 @@ namespace Custom_Window_Chrome_Demo.src
             return fetchList(dataTable);
         }
 
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="questionId"></param>
+        /// <returns></returns>
         public static DataRowCollection findAnswerByQuestionId(int questionId)
         {
             String sqlQuery = String.Format("SELECT id, answer FROM closedquestionanswer where closed_question_id = @questionId order by rand();");
@@ -101,6 +112,11 @@ namespace Custom_Window_Chrome_Demo.src
             return fetchList(dataTable);
         }
 
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="questionID"></param>
+        /// <returns></returns>
         public static DataRowCollection findAnswerWithIsCorrectByQuestionId(int questionID)
         {
             String sqlQuery = String.Format("SELECT id, is_correct FROM closedquestionanswer where closed_question_id = @questionId");
@@ -117,7 +133,12 @@ namespace Custom_Window_Chrome_Demo.src
 
             return fetchList(dataTable);
         }
-
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="id"></param>
+        /// <param name="loginId"></param>
+        /// <returns></returns>
         public static DataRow findExamByIdAndLoginId(String id, int loginId)
         {
             String sqlQuery = "SELECT name, time, closed_quantity FROM exam INNER JOIN examtologin ON " +
@@ -138,15 +159,34 @@ namespace Custom_Window_Chrome_Demo.src
             return fetchObject(dataTable);
         }
 
+        /// <summary>
+        /// jezeli zmienna dataTAble jest rozna od nulla i wielkosc tablicy (wierszy) jest wieksza od 0 to zwracamy 1 element tablicy, gdyz oczekujemy 
+        /// ze wynikiem jest tylko jeden wiersz 
+        /// </summary>
+        /// <param name="dataTable"></param>
+        /// <returns></returns>
         private static DataRow fetchObject(DataTable dataTable)
         {
             return (dataTable != null && dataTable.Rows.Count > 0) ? dataTable.Rows[0] : null;
         }
-
+        /// <summary>
+        /// jezeli zmienna dataTable jest rozna od nulla i wielkosc tablicy (wierszy) jest wieksza od 0 to zwracamy wszystkie elementy tablicy (wierszE)
+        /// </summary>
+        /// <param name="dataTable"></param>
+        /// <returns></returns>
         private static DataRowCollection fetchList(DataTable dataTable)
         {
             return (dataTable != null && dataTable.Rows.Count > 0) ? dataTable.Rows : null;
         }
+
+        /// <summary>
+        /// metoda SaveResult, obsluguje ona zapis (insert) danych po zakonczonym egzaminie do bazy danych.
+        /// </summary>
+        /// <param name="examId"></param>
+        /// <param name="loginId"></param>
+        /// <param name="score"></param>
+        /// <param name="maxScore"></param>
+        /// <param name="createdAt"></param>
 
         public static void SaveResult(int examId, int loginId, int score, int maxScore, DateTime createdAt)
         {

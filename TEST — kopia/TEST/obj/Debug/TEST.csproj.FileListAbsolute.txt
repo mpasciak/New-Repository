@@ -136,3 +136,6 @@ G:\wsiz\Sem IV\Programowanie\Projekt\TEST — kopia\TEST\obj\Debug\TEST.csproj.C
 G:\wsiz\Sem IV\Programowanie\Projekt\TEST — kopia\TEST\obj\Debug\TEST.csproj.CopyComplete
 G:\wsiz\Sem IV\Programowanie\Projekt\TEST — kopia\TEST\obj\Debug\Custom Window Chrome Demo.exe
 G:\wsiz\Sem IV\Programowanie\Projekt\TEST — kopia\TEST\obj\Debug\Custom Window Chrome Demo.pdb
+G:\wsiz\Sem IV\Programowanie\Projekt\TEST — kopia\TEST\bin\Debug\nunit.framework.dll
+G:\wsiz\Sem IV\Programowanie\Projekt\TEST — kopia\TEST\bin\Debug\nunit.framework.pdb
+G:\wsiz\Sem IV\Programowanie\Projekt\TEST — kopia\TEST\bin\Debug\nunit.framework.xml

@@ -82,7 +82,8 @@ namespace Custom_Window_Chrome_Demo.src
 
         /// <summary>
         /// metoda zwraca liczbe punktow za pytanie jesli ktorakolwiek z odpowiedzi nie zostanie zaznaczona 
-        /// to metoda zwraca 0 czyli punkty nie zostana przyznane
+        /// to metoda zwraca 0 czyli punkty nie zostana przyznane, metoda rowniez zwraca 0 wtedy gdy uzytkownik zaznaczy zla odpowiedz
+        /// albo zla odpowiedz i dobra
         /// </summary>
         /// <returns></returns>
         public Int16 countPoints()

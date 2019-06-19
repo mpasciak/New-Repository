@@ -10,6 +10,14 @@ namespace Custom_Window_Chrome_Demo.src.service
 {
     class DownloadExamService
     {
+        /// <summary>
+        /// Na poczatku wybieramy egzamin z bazy danych. Nastepnie na podstawie obiektu bazodanowego tworzymy obiekt klasy exam
+        /// Pozniej znajdujemy pytania na podstawie egzaminu z bazy i rowniez na ich podstawie tworzone sa obiekty klasy ClosedQuestion
+        /// Nastepnie do pytan przypisywane sa odpowiedzi i zwracamy caly egzmin
+        /// </summary>
+        /// <param name="id"></param>
+        /// <param name="loginId"></param>
+        /// <returns></returns>
         public Exam Download(String id, Int16 loginId)
         {
             DataRow examRow = Repository.findExamByIdAndLoginId(id, loginId);
