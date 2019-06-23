@@ -208,3 +208,26 @@ D:\Projekt C#\TEST\obj\Debug\TEST.csproj.CoreCompileInputs.cache
 D:\Projekt C#\TEST\obj\Debug\TEST.csproj.CopyComplete
 D:\Projekt C#\TEST\obj\Debug\Custom Window Chrome Demo.exe
 D:\Projekt C#\TEST\obj\Debug\Custom Window Chrome Demo.pdb
+G:\GitHub\New-Repository\TEST\bin\Debug\Custom Window Chrome Demo.exe.config
+G:\GitHub\New-Repository\TEST\bin\Debug\Custom Window Chrome Demo.exe
+G:\GitHub\New-Repository\TEST\bin\Debug\Custom Window Chrome Demo.pdb
+G:\GitHub\New-Repository\TEST\bin\Debug\nunit.framework.dll
+G:\GitHub\New-Repository\TEST\bin\Debug\nunit.framework.pdb
+G:\GitHub\New-Repository\TEST\bin\Debug\nunit.framework.xml
+G:\GitHub\New-Repository\TEST\obj\Debug\TEST.csprojAssemblyReference.cache
+G:\GitHub\New-Repository\TEST\obj\Debug\App.baml
+G:\GitHub\New-Repository\TEST\obj\Debug\MainWindow.g.cs
+G:\GitHub\New-Repository\TEST\obj\Debug\ThemedWindowStyle.g.cs
+G:\GitHub\New-Repository\TEST\obj\Debug\App.g.cs
+G:\GitHub\New-Repository\TEST\obj\Debug\GeneratedInternalTypeHelper.g.cs
+G:\GitHub\New-Repository\TEST\obj\Debug\Custom Window Chrome Demo_MarkupCompile.cache
+G:\GitHub\New-Repository\TEST\obj\Debug\Custom Window Chrome Demo_MarkupCompile.lref
+G:\GitHub\New-Repository\TEST\obj\Debug\MainWindow.baml
+G:\GitHub\New-Repository\TEST\obj\Debug\ThemedWindowStyle.baml
+G:\GitHub\New-Repository\TEST\obj\Debug\Custom Window Chrome Demo.g.resources
+G:\GitHub\New-Repository\TEST\obj\Debug\Custom_Window_Chrome_Demo.Properties.Resources.resources
+G:\GitHub\New-Repository\TEST\obj\Debug\TEST.csproj.GenerateResource.cache
+G:\GitHub\New-Repository\TEST\obj\Debug\TEST.csproj.CoreCompileInputs.cache
+G:\GitHub\New-Repository\TEST\obj\Debug\TEST.csproj.CopyComplete
+G:\GitHub\New-Repository\TEST\obj\Debug\Custom Window Chrome Demo.exe
+G:\GitHub\New-Repository\TEST\obj\Debug\Custom Window Chrome Demo.pdb

@@ -5,3 +5,11 @@ G:\wsiz\Sem IV\Programowanie\Projekt\Projekt_PP\Projekt C#\TEST — kopia\TEST\.
 G:\wsiz\Sem IV\Programowanie\Projekt\Projekt_PP\Projekt C#\TEST — kopia\TEST\.vs\TEST\lut\0\i\TEST\Debug\GeneratedInternalTypeHelper.g.cs
 G:\wsiz\Sem IV\Programowanie\Projekt\Projekt_PP\Projekt C#\TEST — kopia\TEST\.vs\TEST\lut\0\i\TEST\Debug\Custom Window Chrome Demo_MarkupCompile.cache
 G:\wsiz\Sem IV\Programowanie\Projekt\Projekt_PP\Projekt C#\TEST — kopia\TEST\.vs\TEST\lut\0\i\TEST\Debug\Custom Window Chrome Demo_MarkupCompile.lref
+G:\GitHub\New-Repository\TEST\.vs\TEST\lut\0\i\TEST\Debug\TEST.csprojAssemblyReference.cache
+G:\GitHub\New-Repository\TEST\.vs\TEST\lut\0\i\TEST\Debug\App.baml
+G:\GitHub\New-Repository\TEST\.vs\TEST\lut\0\i\TEST\Debug\MainWindow.g.cs
+G:\GitHub\New-Repository\TEST\.vs\TEST\lut\0\i\TEST\Debug\ThemedWindowStyle.g.cs
+G:\GitHub\New-Repository\TEST\.vs\TEST\lut\0\i\TEST\Debug\App.g.cs
+G:\GitHub\New-Repository\TEST\.vs\TEST\lut\0\i\TEST\Debug\GeneratedInternalTypeHelper.g.cs
+G:\GitHub\New-Repository\TEST\.vs\TEST\lut\0\i\TEST\Debug\Custom Window Chrome Demo_MarkupCompile.cache
+G:\GitHub\New-Repository\TEST\.vs\TEST\lut\0\i\TEST\Debug\Custom Window Chrome Demo_MarkupCompile.lref
