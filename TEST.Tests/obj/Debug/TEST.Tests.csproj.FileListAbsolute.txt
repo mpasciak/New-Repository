@@ -1,0 +1,15 @@
+G:\wsiz\Sem IV\Programowanie\Projekt\Projekt_PP\Projekt C#\TEST — kopia\TEST.Tests\bin\Debug\TEST.Tests.dll.config
+G:\wsiz\Sem IV\Programowanie\Projekt\Projekt_PP\Projekt C#\TEST — kopia\TEST.Tests\bin\Debug\TEST.Tests.dll
+G:\wsiz\Sem IV\Programowanie\Projekt\Projekt_PP\Projekt C#\TEST — kopia\TEST.Tests\bin\Debug\TEST.Tests.pdb
+G:\wsiz\Sem IV\Programowanie\Projekt\Projekt_PP\Projekt C#\TEST — kopia\TEST.Tests\bin\Debug\Custom Window Chrome Demo.exe
+G:\wsiz\Sem IV\Programowanie\Projekt\Projekt_PP\Projekt C#\TEST — kopia\TEST.Tests\bin\Debug\nunit.framework.dll
+G:\wsiz\Sem IV\Programowanie\Projekt\Projekt_PP\Projekt C#\TEST — kopia\TEST.Tests\bin\Debug\MySql.Data.dll
+G:\wsiz\Sem IV\Programowanie\Projekt\Projekt_PP\Projekt C#\TEST — kopia\TEST.Tests\bin\Debug\Custom Window Chrome Demo.pdb
+G:\wsiz\Sem IV\Programowanie\Projekt\Projekt_PP\Projekt C#\TEST — kopia\TEST.Tests\bin\Debug\nunit.framework.pdb
+G:\wsiz\Sem IV\Programowanie\Projekt\Projekt_PP\Projekt C#\TEST — kopia\TEST.Tests\bin\Debug\nunit.framework.xml
+G:\wsiz\Sem IV\Programowanie\Projekt\Projekt_PP\Projekt C#\TEST — kopia\TEST.Tests\obj\Debug\TEST.Tests.csprojAssemblyReference.cache
+G:\wsiz\Sem IV\Programowanie\Projekt\Projekt_PP\Projekt C#\TEST — kopia\TEST.Tests\obj\Debug\TEST.Tests.csproj.CoreCompileInputs.cache
+G:\wsiz\Sem IV\Programowanie\Projekt\Projekt_PP\Projekt C#\TEST — kopia\TEST.Tests\obj\Debug\TEST.Tests.csproj.CopyComplete
+G:\wsiz\Sem IV\Programowanie\Projekt\Projekt_PP\Projekt C#\TEST — kopia\TEST.Tests\obj\Debug\TEST.Tests.dll
+G:\wsiz\Sem IV\Programowanie\Projekt\Projekt_PP\Projekt C#\TEST — kopia\TEST.Tests\obj\Debug\TEST.Tests.pdb
+G:\wsiz\Sem IV\Programowanie\Projekt\Projekt_PP\Projekt C#\TEST — kopia\TEST.Tests\bin\Debug\Custom Window Chrome Demo.exe.config

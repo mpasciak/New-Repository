@@ -1,0 +1,7 @@
+G:\wsiz\Sem IV\Programowanie\Projekt\Projekt_PP\Projekt C#\TEST — kopia\TEST\.vs\TEST\lut\0\i\TEST\Debug\App.baml
+G:\wsiz\Sem IV\Programowanie\Projekt\Projekt_PP\Projekt C#\TEST — kopia\TEST\.vs\TEST\lut\0\i\TEST\Debug\MainWindow.g.cs
+G:\wsiz\Sem IV\Programowanie\Projekt\Projekt_PP\Projekt C#\TEST — kopia\TEST\.vs\TEST\lut\0\i\TEST\Debug\ThemedWindowStyle.g.cs
+G:\wsiz\Sem IV\Programowanie\Projekt\Projekt_PP\Projekt C#\TEST — kopia\TEST\.vs\TEST\lut\0\i\TEST\Debug\App.g.cs
+G:\wsiz\Sem IV\Programowanie\Projekt\Projekt_PP\Projekt C#\TEST — kopia\TEST\.vs\TEST\lut\0\i\TEST\Debug\GeneratedInternalTypeHelper.g.cs
+G:\wsiz\Sem IV\Programowanie\Projekt\Projekt_PP\Projekt C#\TEST — kopia\TEST\.vs\TEST\lut\0\i\TEST\Debug\Custom Window Chrome Demo_MarkupCompile.cache
+G:\wsiz\Sem IV\Programowanie\Projekt\Projekt_PP\Projekt C#\TEST — kopia\TEST\.vs\TEST\lut\0\i\TEST\Debug\Custom Window Chrome Demo_MarkupCompile.lref

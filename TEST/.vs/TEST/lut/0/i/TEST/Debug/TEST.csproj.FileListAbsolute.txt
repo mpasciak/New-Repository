@@ -1,0 +1,8 @@
+D:\Projekt C#\TEST\.vs\TEST\lut\0\i\TEST\Debug\TEST.csprojAssemblyReference.cache
+D:\Projekt C#\TEST\.vs\TEST\lut\0\i\TEST\Debug\App.baml
+D:\Projekt C#\TEST\.vs\TEST\lut\0\i\TEST\Debug\MainWindow.g.cs
+D:\Projekt C#\TEST\.vs\TEST\lut\0\i\TEST\Debug\ThemedWindowStyle.g.cs
+D:\Projekt C#\TEST\.vs\TEST\lut\0\i\TEST\Debug\App.g.cs
+D:\Projekt C#\TEST\.vs\TEST\lut\0\i\TEST\Debug\GeneratedInternalTypeHelper.g.cs
+D:\Projekt C#\TEST\.vs\TEST\lut\0\i\TEST\Debug\Custom Window Chrome Demo_MarkupCompile.cache
+D:\Projekt C#\TEST\.vs\TEST\lut\0\i\TEST\Debug\Custom Window Chrome Demo_MarkupCompile.lref

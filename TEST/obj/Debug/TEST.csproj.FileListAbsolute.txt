@@ -1,0 +1,210 @@
+C:\Users\Admin\Desktop\Design app\TEST\bin\Debug\Custom Window Chrome Demo.exe.config
+C:\Users\Admin\Desktop\Design app\TEST\bin\Debug\Custom Window Chrome Demo.exe
+C:\Users\Admin\Desktop\Design app\TEST\bin\Debug\Custom Window Chrome Demo.pdb
+C:\Users\Admin\Desktop\Design app\TEST\bin\Debug\MySql.Data.dll
+C:\Users\Admin\Desktop\Design app\TEST\obj\Debug\TEST.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Desktop\Design app\TEST\obj\Debug\App.baml
+C:\Users\Admin\Desktop\Design app\TEST\obj\Debug\MainWindow.g.cs
+C:\Users\Admin\Desktop\Design app\TEST\obj\Debug\ThemedWindowStyle.g.cs
+C:\Users\Admin\Desktop\Design app\TEST\obj\Debug\App.g.cs
+C:\Users\Admin\Desktop\Design app\TEST\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Admin\Desktop\Design app\TEST\obj\Debug\Custom Window Chrome Demo_MarkupCompile.cache
+C:\Users\Admin\Desktop\Design app\TEST\obj\Debug\Custom Window Chrome Demo_MarkupCompile.lref
+C:\Users\Admin\Desktop\Design app\TEST\obj\Debug\MainWindow.baml
+C:\Users\Admin\Desktop\Design app\TEST\obj\Debug\ThemedWindowStyle.baml
+C:\Users\Admin\Desktop\Design app\TEST\obj\Debug\Custom Window Chrome Demo.g.resources
+C:\Users\Admin\Desktop\Design app\TEST\obj\Debug\Custom_Window_Chrome_Demo.Properties.Resources.resources
+C:\Users\Admin\Desktop\Design app\TEST\obj\Debug\TEST.csproj.GenerateResource.Cache
+C:\Users\Admin\Desktop\Design app\TEST\obj\Debug\Custom Window Chrome Demo.exe
+C:\Users\Admin\Desktop\Design app\TEST\obj\Debug\Custom Window Chrome Demo.pdb
+E:\SZYMON\Szymon\Programowanie\Design app\TEST\bin\Debug\Custom Window Chrome Demo.exe.config
+E:\SZYMON\Szymon\Programowanie\Design app\TEST\obj\Debug\Custom Window Chrome Demo.exe
+E:\SZYMON\Szymon\Programowanie\Design app\TEST\obj\Debug\Custom Window Chrome Demo.pdb
+G:\SZYMON\Szymon\Programowanie\Design app\TEST\bin\Debug\Custom Window Chrome Demo.exe.config
+G:\SZYMON\Szymon\Programowanie\Design app\TEST\obj\Debug\Custom Window Chrome Demo.exe
+G:\SZYMON\Szymon\Programowanie\Design app\TEST\obj\Debug\Custom Window Chrome Demo.pdb
+F:\SZYMON\Szymon\Programowanie\Design app\TEST\bin\Debug\Custom Window Chrome Demo.exe.config
+F:\SZYMON\Szymon\Programowanie\Design app\TEST\obj\Debug\Custom Window Chrome Demo.exe
+F:\SZYMON\Szymon\Programowanie\Design app\TEST\obj\Debug\Custom Window Chrome Demo.pdb
+F:\SZYMON\Szymon\Programowanie\Design app\TEST\bin\Debug\Custom Window Chrome Demo.exe
+F:\SZYMON\Szymon\Programowanie\Design app\TEST\bin\Debug\Custom Window Chrome Demo.pdb
+F:\SZYMON\Szymon\Programowanie\Design app\TEST\obj\Debug\TEST.csprojResolveAssemblyReference.cache
+F:\SZYMON\Szymon\Programowanie\Design app\TEST\obj\Debug\App.baml
+F:\SZYMON\Szymon\Programowanie\Design app\TEST\obj\Debug\MainWindow.g.cs
+F:\SZYMON\Szymon\Programowanie\Design app\TEST\obj\Debug\ThemedWindowStyle.g.cs
+F:\SZYMON\Szymon\Programowanie\Design app\TEST\obj\Debug\App.g.cs
+F:\SZYMON\Szymon\Programowanie\Design app\TEST\obj\Debug\GeneratedInternalTypeHelper.g.cs
+F:\SZYMON\Szymon\Programowanie\Design app\TEST\obj\Debug\Custom Window Chrome Demo_MarkupCompile.cache
+F:\SZYMON\Szymon\Programowanie\Design app\TEST\obj\Debug\Custom Window Chrome Demo_MarkupCompile.lref
+F:\SZYMON\Szymon\Programowanie\Design app\TEST\obj\Debug\MainWindow.baml
+F:\SZYMON\Szymon\Programowanie\Design app\TEST\obj\Debug\ThemedWindowStyle.baml
+F:\SZYMON\Szymon\Programowanie\Design app\TEST\obj\Debug\Custom Window Chrome Demo.g.resources
+F:\SZYMON\Szymon\Programowanie\Design app\TEST\obj\Debug\Custom_Window_Chrome_Demo.Properties.Resources.resources
+F:\SZYMON\Szymon\Programowanie\Design app\TEST\obj\Debug\TEST.csproj.GenerateResource.Cache
+E:\SZYMON\Szymon\Programowanie\Design app\TEST\bin\Debug\Custom Window Chrome Demo.exe
+E:\SZYMON\Szymon\Programowanie\Design app\TEST\bin\Debug\Custom Window Chrome Demo.pdb
+E:\SZYMON\Szymon\Programowanie\Design app\TEST\obj\Debug\TEST.csprojResolveAssemblyReference.cache
+E:\SZYMON\Szymon\Programowanie\Design app\TEST\obj\Debug\App.baml
+E:\SZYMON\Szymon\Programowanie\Design app\TEST\obj\Debug\MainWindow.g.cs
+E:\SZYMON\Szymon\Programowanie\Design app\TEST\obj\Debug\ThemedWindowStyle.g.cs
+E:\SZYMON\Szymon\Programowanie\Design app\TEST\obj\Debug\App.g.cs
+E:\SZYMON\Szymon\Programowanie\Design app\TEST\obj\Debug\GeneratedInternalTypeHelper.g.cs
+E:\SZYMON\Szymon\Programowanie\Design app\TEST\obj\Debug\Custom Window Chrome Demo_MarkupCompile.cache
+E:\SZYMON\Szymon\Programowanie\Design app\TEST\obj\Debug\Custom Window Chrome Demo_MarkupCompile.lref
+E:\SZYMON\Szymon\Programowanie\Design app\TEST\obj\Debug\MainWindow.baml
+E:\SZYMON\Szymon\Programowanie\Design app\TEST\obj\Debug\ThemedWindowStyle.baml
+E:\SZYMON\Szymon\Programowanie\Design app\TEST\obj\Debug\Custom Window Chrome Demo.g.resources
+E:\SZYMON\Szymon\Programowanie\Design app\TEST\obj\Debug\Custom_Window_Chrome_Demo.Properties.Resources.resources
+E:\SZYMON\Szymon\Programowanie\Design app\TEST\obj\Debug\TEST.csproj.GenerateResource.Cache
+C:\Users\Nanocoder-03_2\Downloads\TEST\TEST\bin\Debug\Custom Window Chrome Demo.exe.config
+C:\Users\Nanocoder-03_2\Downloads\TEST\TEST\bin\Debug\Custom Window Chrome Demo.exe
+C:\Users\Nanocoder-03_2\Downloads\TEST\TEST\bin\Debug\Custom Window Chrome Demo.pdb
+C:\Users\Nanocoder-03_2\Downloads\TEST\TEST\obj\Debug\TEST.csprojAssemblyReference.cache
+C:\Users\Nanocoder-03_2\Downloads\TEST\TEST\obj\Debug\App.baml
+C:\Users\Nanocoder-03_2\Downloads\TEST\TEST\obj\Debug\MainWindow.g.cs
+C:\Users\Nanocoder-03_2\Downloads\TEST\TEST\obj\Debug\ThemedWindowStyle.g.cs
+C:\Users\Nanocoder-03_2\Downloads\TEST\TEST\obj\Debug\App.g.cs
+C:\Users\Nanocoder-03_2\Downloads\TEST\TEST\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Nanocoder-03_2\Downloads\TEST\TEST\obj\Debug\Custom Window Chrome Demo_MarkupCompile.cache
+C:\Users\Nanocoder-03_2\Downloads\TEST\TEST\obj\Debug\Custom Window Chrome Demo_MarkupCompile.lref
+C:\Users\Nanocoder-03_2\Downloads\TEST\TEST\obj\Debug\MainWindow.baml
+C:\Users\Nanocoder-03_2\Downloads\TEST\TEST\obj\Debug\ThemedWindowStyle.baml
+C:\Users\Nanocoder-03_2\Downloads\TEST\TEST\obj\Debug\Custom Window Chrome Demo.g.resources
+C:\Users\Nanocoder-03_2\Downloads\TEST\TEST\obj\Debug\Custom_Window_Chrome_Demo.Properties.Resources.resources
+C:\Users\Nanocoder-03_2\Downloads\TEST\TEST\obj\Debug\TEST.csproj.GenerateResource.cache
+C:\Users\Nanocoder-03_2\Downloads\TEST\TEST\obj\Debug\TEST.csproj.CoreCompileInputs.cache
+C:\Users\Nanocoder-03_2\Downloads\TEST\TEST\obj\Debug\TEST.csproj.CopyComplete
+C:\Users\Nanocoder-03_2\Downloads\TEST\TEST\obj\Debug\Custom Window Chrome Demo.exe
+C:\Users\Nanocoder-03_2\Downloads\TEST\TEST\obj\Debug\Custom Window Chrome Demo.pdb
+D:\TEST\TEST\bin\Debug\Custom Window Chrome Demo.exe.config
+D:\TEST\TEST\bin\Debug\Custom Window Chrome Demo.exe
+D:\TEST\TEST\bin\Debug\Custom Window Chrome Demo.pdb
+D:\TEST\TEST\obj\Debug\TEST.csprojAssemblyReference.cache
+D:\TEST\TEST\obj\Debug\App.baml
+D:\TEST\TEST\obj\Debug\MainWindow.g.cs
+D:\TEST\TEST\obj\Debug\ThemedWindowStyle.g.cs
+D:\TEST\TEST\obj\Debug\App.g.cs
+D:\TEST\TEST\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\TEST\TEST\obj\Debug\Custom Window Chrome Demo_MarkupCompile.cache
+D:\TEST\TEST\obj\Debug\Custom Window Chrome Demo_MarkupCompile.lref
+D:\TEST\TEST\obj\Debug\MainWindow.baml
+D:\TEST\TEST\obj\Debug\ThemedWindowStyle.baml
+D:\TEST\TEST\obj\Debug\Custom Window Chrome Demo.g.resources
+D:\TEST\TEST\obj\Debug\Custom_Window_Chrome_Demo.Properties.Resources.resources
+D:\TEST\TEST\obj\Debug\TEST.csproj.GenerateResource.cache
+D:\TEST\TEST\obj\Debug\TEST.csproj.CoreCompileInputs.cache
+D:\TEST\TEST\obj\Debug\TEST.csproj.CopyComplete
+D:\TEST\TEST\obj\Debug\Custom Window Chrome Demo.exe
+D:\TEST\TEST\obj\Debug\Custom Window Chrome Demo.pdb
+G:\wsiz\Sem IV\Programowanie\Projekt\TEST\TEST\bin\Debug\Custom Window Chrome Demo.exe.config
+G:\wsiz\Sem IV\Programowanie\Projekt\TEST\TEST\bin\Debug\Custom Window Chrome Demo.exe
+G:\wsiz\Sem IV\Programowanie\Projekt\TEST\TEST\bin\Debug\Custom Window Chrome Demo.pdb
+G:\wsiz\Sem IV\Programowanie\Projekt\TEST\TEST\obj\Debug\TEST.csprojAssemblyReference.cache
+G:\wsiz\Sem IV\Programowanie\Projekt\TEST\TEST\obj\Debug\App.baml
+G:\wsiz\Sem IV\Programowanie\Projekt\TEST\TEST\obj\Debug\MainWindow.g.cs
+G:\wsiz\Sem IV\Programowanie\Projekt\TEST\TEST\obj\Debug\ThemedWindowStyle.g.cs
+G:\wsiz\Sem IV\Programowanie\Projekt\TEST\TEST\obj\Debug\App.g.cs
+G:\wsiz\Sem IV\Programowanie\Projekt\TEST\TEST\obj\Debug\GeneratedInternalTypeHelper.g.cs
+G:\wsiz\Sem IV\Programowanie\Projekt\TEST\TEST\obj\Debug\Custom Window Chrome Demo_MarkupCompile.cache
+G:\wsiz\Sem IV\Programowanie\Projekt\TEST\TEST\obj\Debug\Custom Window Chrome Demo_MarkupCompile.lref
+G:\wsiz\Sem IV\Programowanie\Projekt\TEST\TEST\obj\Debug\MainWindow.baml
+G:\wsiz\Sem IV\Programowanie\Projekt\TEST\TEST\obj\Debug\ThemedWindowStyle.baml
+G:\wsiz\Sem IV\Programowanie\Projekt\TEST\TEST\obj\Debug\Custom Window Chrome Demo.g.resources
+G:\wsiz\Sem IV\Programowanie\Projekt\TEST\TEST\obj\Debug\Custom_Window_Chrome_Demo.Properties.Resources.resources
+G:\wsiz\Sem IV\Programowanie\Projekt\TEST\TEST\obj\Debug\TEST.csproj.GenerateResource.cache
+G:\wsiz\Sem IV\Programowanie\Projekt\TEST\TEST\obj\Debug\TEST.csproj.CoreCompileInputs.cache
+G:\wsiz\Sem IV\Programowanie\Projekt\TEST\TEST\obj\Debug\TEST.csproj.CopyComplete
+G:\wsiz\Sem IV\Programowanie\Projekt\TEST\TEST\obj\Debug\Custom Window Chrome Demo.exe
+G:\wsiz\Sem IV\Programowanie\Projekt\TEST\TEST\obj\Debug\Custom Window Chrome Demo.pdb
+G:\wsiz\Sem IV\Programowanie\Projekt\TEST — kopia\TEST\bin\Debug\Custom Window Chrome Demo.exe.config
+G:\wsiz\Sem IV\Programowanie\Projekt\TEST — kopia\TEST\bin\Debug\Custom Window Chrome Demo.exe
+G:\wsiz\Sem IV\Programowanie\Projekt\TEST — kopia\TEST\bin\Debug\Custom Window Chrome Demo.pdb
+G:\wsiz\Sem IV\Programowanie\Projekt\TEST — kopia\TEST\obj\Debug\TEST.csprojAssemblyReference.cache
+G:\wsiz\Sem IV\Programowanie\Projekt\TEST — kopia\TEST\obj\Debug\App.baml
+G:\wsiz\Sem IV\Programowanie\Projekt\TEST — kopia\TEST\obj\Debug\MainWindow.g.cs
+G:\wsiz\Sem IV\Programowanie\Projekt\TEST — kopia\TEST\obj\Debug\ThemedWindowStyle.g.cs
+G:\wsiz\Sem IV\Programowanie\Projekt\TEST — kopia\TEST\obj\Debug\App.g.cs
+G:\wsiz\Sem IV\Programowanie\Projekt\TEST — kopia\TEST\obj\Debug\GeneratedInternalTypeHelper.g.cs
+G:\wsiz\Sem IV\Programowanie\Projekt\TEST — kopia\TEST\obj\Debug\Custom Window Chrome Demo_MarkupCompile.cache
+G:\wsiz\Sem IV\Programowanie\Projekt\TEST — kopia\TEST\obj\Debug\Custom Window Chrome Demo_MarkupCompile.lref
+G:\wsiz\Sem IV\Programowanie\Projekt\TEST — kopia\TEST\obj\Debug\MainWindow.baml
+G:\wsiz\Sem IV\Programowanie\Projekt\TEST — kopia\TEST\obj\Debug\ThemedWindowStyle.baml
+G:\wsiz\Sem IV\Programowanie\Projekt\TEST — kopia\TEST\obj\Debug\Custom Window Chrome Demo.g.resources
+G:\wsiz\Sem IV\Programowanie\Projekt\TEST — kopia\TEST\obj\Debug\Custom_Window_Chrome_Demo.Properties.Resources.resources
+G:\wsiz\Sem IV\Programowanie\Projekt\TEST — kopia\TEST\obj\Debug\TEST.csproj.GenerateResource.cache
+G:\wsiz\Sem IV\Programowanie\Projekt\TEST — kopia\TEST\obj\Debug\TEST.csproj.CoreCompileInputs.cache
+G:\wsiz\Sem IV\Programowanie\Projekt\TEST — kopia\TEST\obj\Debug\TEST.csproj.CopyComplete
+G:\wsiz\Sem IV\Programowanie\Projekt\TEST — kopia\TEST\obj\Debug\Custom Window Chrome Demo.exe
+G:\wsiz\Sem IV\Programowanie\Projekt\TEST — kopia\TEST\obj\Debug\Custom Window Chrome Demo.pdb
+G:\wsiz\Sem IV\Programowanie\Projekt\TEST — kopia\TEST\bin\Debug\nunit.framework.dll
+G:\wsiz\Sem IV\Programowanie\Projekt\TEST — kopia\TEST\bin\Debug\nunit.framework.pdb
+G:\wsiz\Sem IV\Programowanie\Projekt\TEST — kopia\TEST\bin\Debug\nunit.framework.xml
+C:\Users\Adrian\Desktop\Projekt_Pedro\Projekt C#\TEST — kopia\TEST\bin\Debug\Custom Window Chrome Demo.exe.config
+C:\Users\Adrian\Desktop\Projekt_Pedro\Projekt C#\TEST — kopia\TEST\bin\Debug\Custom Window Chrome Demo.exe
+C:\Users\Adrian\Desktop\Projekt_Pedro\Projekt C#\TEST — kopia\TEST\bin\Debug\Custom Window Chrome Demo.pdb
+C:\Users\Adrian\Desktop\Projekt_Pedro\Projekt C#\TEST — kopia\TEST\bin\Debug\nunit.framework.dll
+C:\Users\Adrian\Desktop\Projekt_Pedro\Projekt C#\TEST — kopia\TEST\bin\Debug\nunit.framework.pdb
+C:\Users\Adrian\Desktop\Projekt_Pedro\Projekt C#\TEST — kopia\TEST\bin\Debug\nunit.framework.xml
+C:\Users\Adrian\Desktop\Projekt_Pedro\Projekt C#\TEST — kopia\TEST\obj\Debug\TEST.csprojAssemblyReference.cache
+C:\Users\Adrian\Desktop\Projekt_Pedro\Projekt C#\TEST — kopia\TEST\obj\Debug\App.baml
+C:\Users\Adrian\Desktop\Projekt_Pedro\Projekt C#\TEST — kopia\TEST\obj\Debug\MainWindow.g.cs
+C:\Users\Adrian\Desktop\Projekt_Pedro\Projekt C#\TEST — kopia\TEST\obj\Debug\ThemedWindowStyle.g.cs
+C:\Users\Adrian\Desktop\Projekt_Pedro\Projekt C#\TEST — kopia\TEST\obj\Debug\App.g.cs
+C:\Users\Adrian\Desktop\Projekt_Pedro\Projekt C#\TEST — kopia\TEST\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Adrian\Desktop\Projekt_Pedro\Projekt C#\TEST — kopia\TEST\obj\Debug\Custom Window Chrome Demo_MarkupCompile.cache
+C:\Users\Adrian\Desktop\Projekt_Pedro\Projekt C#\TEST — kopia\TEST\obj\Debug\Custom Window Chrome Demo_MarkupCompile.lref
+C:\Users\Adrian\Desktop\Projekt_Pedro\Projekt C#\TEST — kopia\TEST\obj\Debug\MainWindow.baml
+C:\Users\Adrian\Desktop\Projekt_Pedro\Projekt C#\TEST — kopia\TEST\obj\Debug\ThemedWindowStyle.baml
+C:\Users\Adrian\Desktop\Projekt_Pedro\Projekt C#\TEST — kopia\TEST\obj\Debug\Custom Window Chrome Demo.g.resources
+C:\Users\Adrian\Desktop\Projekt_Pedro\Projekt C#\TEST — kopia\TEST\obj\Debug\Custom_Window_Chrome_Demo.Properties.Resources.resources
+C:\Users\Adrian\Desktop\Projekt_Pedro\Projekt C#\TEST — kopia\TEST\obj\Debug\TEST.csproj.GenerateResource.cache
+C:\Users\Adrian\Desktop\Projekt_Pedro\Projekt C#\TEST — kopia\TEST\obj\Debug\TEST.csproj.CoreCompileInputs.cache
+C:\Users\Adrian\Desktop\Projekt_Pedro\Projekt C#\TEST — kopia\TEST\obj\Debug\TEST.csproj.CopyComplete
+C:\Users\Adrian\Desktop\Projekt_Pedro\Projekt C#\TEST — kopia\TEST\obj\Debug\Custom Window Chrome Demo.exe
+C:\Users\Adrian\Desktop\Projekt_Pedro\Projekt C#\TEST — kopia\TEST\obj\Debug\Custom Window Chrome Demo.pdb
+G:\wsiz\Sem IV\Programowanie\Projekt\Projekt_PP\Projekt C#\TEST — kopia\TEST\bin\Debug\Custom Window Chrome Demo.exe.config
+G:\wsiz\Sem IV\Programowanie\Projekt\Projekt_PP\Projekt C#\TEST — kopia\TEST\bin\Debug\Custom Window Chrome Demo.exe
+G:\wsiz\Sem IV\Programowanie\Projekt\Projekt_PP\Projekt C#\TEST — kopia\TEST\bin\Debug\Custom Window Chrome Demo.pdb
+G:\wsiz\Sem IV\Programowanie\Projekt\Projekt_PP\Projekt C#\TEST — kopia\TEST\bin\Debug\nunit.framework.dll
+G:\wsiz\Sem IV\Programowanie\Projekt\Projekt_PP\Projekt C#\TEST — kopia\TEST\bin\Debug\nunit.framework.pdb
+G:\wsiz\Sem IV\Programowanie\Projekt\Projekt_PP\Projekt C#\TEST — kopia\TEST\bin\Debug\nunit.framework.xml
+G:\wsiz\Sem IV\Programowanie\Projekt\Projekt_PP\Projekt C#\TEST — kopia\TEST\obj\Debug\TEST.csprojAssemblyReference.cache
+G:\wsiz\Sem IV\Programowanie\Projekt\Projekt_PP\Projekt C#\TEST — kopia\TEST\obj\Debug\App.baml
+G:\wsiz\Sem IV\Programowanie\Projekt\Projekt_PP\Projekt C#\TEST — kopia\TEST\obj\Debug\MainWindow.g.cs
+G:\wsiz\Sem IV\Programowanie\Projekt\Projekt_PP\Projekt C#\TEST — kopia\TEST\obj\Debug\ThemedWindowStyle.g.cs
+G:\wsiz\Sem IV\Programowanie\Projekt\Projekt_PP\Projekt C#\TEST — kopia\TEST\obj\Debug\App.g.cs
+G:\wsiz\Sem IV\Programowanie\Projekt\Projekt_PP\Projekt C#\TEST — kopia\TEST\obj\Debug\GeneratedInternalTypeHelper.g.cs
+G:\wsiz\Sem IV\Programowanie\Projekt\Projekt_PP\Projekt C#\TEST — kopia\TEST\obj\Debug\Custom Window Chrome Demo_MarkupCompile.cache
+G:\wsiz\Sem IV\Programowanie\Projekt\Projekt_PP\Projekt C#\TEST — kopia\TEST\obj\Debug\Custom Window Chrome Demo_MarkupCompile.lref
+G:\wsiz\Sem IV\Programowanie\Projekt\Projekt_PP\Projekt C#\TEST — kopia\TEST\obj\Debug\MainWindow.baml
+G:\wsiz\Sem IV\Programowanie\Projekt\Projekt_PP\Projekt C#\TEST — kopia\TEST\obj\Debug\ThemedWindowStyle.baml
+G:\wsiz\Sem IV\Programowanie\Projekt\Projekt_PP\Projekt C#\TEST — kopia\TEST\obj\Debug\Custom Window Chrome Demo.g.resources
+G:\wsiz\Sem IV\Programowanie\Projekt\Projekt_PP\Projekt C#\TEST — kopia\TEST\obj\Debug\Custom_Window_Chrome_Demo.Properties.Resources.resources
+G:\wsiz\Sem IV\Programowanie\Projekt\Projekt_PP\Projekt C#\TEST — kopia\TEST\obj\Debug\TEST.csproj.GenerateResource.cache
+G:\wsiz\Sem IV\Programowanie\Projekt\Projekt_PP\Projekt C#\TEST — kopia\TEST\obj\Debug\TEST.csproj.CoreCompileInputs.cache
+G:\wsiz\Sem IV\Programowanie\Projekt\Projekt_PP\Projekt C#\TEST — kopia\TEST\obj\Debug\TEST.csproj.CopyComplete
+G:\wsiz\Sem IV\Programowanie\Projekt\Projekt_PP\Projekt C#\TEST — kopia\TEST\obj\Debug\Custom Window Chrome Demo.exe
+G:\wsiz\Sem IV\Programowanie\Projekt\Projekt_PP\Projekt C#\TEST — kopia\TEST\obj\Debug\Custom Window Chrome Demo.pdb
+D:\Projekt C#\TEST\bin\Debug\Custom Window Chrome Demo.exe.config
+D:\Projekt C#\TEST\bin\Debug\Custom Window Chrome Demo.exe
+D:\Projekt C#\TEST\bin\Debug\Custom Window Chrome Demo.pdb
+D:\Projekt C#\TEST\bin\Debug\nunit.framework.dll
+D:\Projekt C#\TEST\bin\Debug\nunit.framework.pdb
+D:\Projekt C#\TEST\bin\Debug\nunit.framework.xml
+D:\Projekt C#\TEST\obj\Debug\TEST.csprojAssemblyReference.cache
+D:\Projekt C#\TEST\obj\Debug\App.baml
+D:\Projekt C#\TEST\obj\Debug\MainWindow.g.cs
+D:\Projekt C#\TEST\obj\Debug\ThemedWindowStyle.g.cs
+D:\Projekt C#\TEST\obj\Debug\App.g.cs
+D:\Projekt C#\TEST\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\Projekt C#\TEST\obj\Debug\Custom Window Chrome Demo_MarkupCompile.cache
+D:\Projekt C#\TEST\obj\Debug\Custom Window Chrome Demo_MarkupCompile.lref
+D:\Projekt C#\TEST\obj\Debug\MainWindow.baml
+D:\Projekt C#\TEST\obj\Debug\ThemedWindowStyle.baml
+D:\Projekt C#\TEST\obj\Debug\Custom Window Chrome Demo.g.resources
+D:\Projekt C#\TEST\obj\Debug\Custom_Window_Chrome_Demo.Properties.Resources.resources
+D:\Projekt C#\TEST\obj\Debug\TEST.csproj.GenerateResource.cache
+D:\Projekt C#\TEST\obj\Debug\TEST.csproj.CoreCompileInputs.cache
+D:\Projekt C#\TEST\obj\Debug\TEST.csproj.CopyComplete
+D:\Projekt C#\TEST\obj\Debug\Custom Window Chrome Demo.exe
+D:\Projekt C#\TEST\obj\Debug\Custom Window Chrome Demo.pdb
